@@ -10,7 +10,7 @@ You’ll need the following steps:
 
 - [Create Codebuild project] TODO
 - [Create Infrastructure](./create-infra/readme)
-- [set config] TODO
+- [configure redis] TODO
 - [Setup Argo CD server in eks cluster](./argocd-server/readme)
 
 
