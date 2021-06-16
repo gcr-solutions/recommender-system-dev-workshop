@@ -5,10 +5,10 @@ weight: 3
 
 In this step, you will create Argo CD application to deploy all online services into EKS cluster
 
-1. Go to /home/ec2-user/environment/recommender-system-solution/scripts directory
+1. Go to /home/ec2-user/environment/recommender-system-dev-workshop/scripts directory
 
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
 ```
 
 2. Run below command to create and deploy online part:=
@@ -25,10 +25,10 @@ After about 1 minutes, the console will output as below:
 
 ![Argocd application status](/images/argocd-app-status.png)
 
-4. Load the seed data into the system. Go to /home/ec2-user/environment/recommender-system-solution/scripts directory
+4. Load the seed data into the system. Go to /home/ec2-user/environment/recommender-system-dev-workshop/scripts directory
 
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
 ```
 
 ```sh

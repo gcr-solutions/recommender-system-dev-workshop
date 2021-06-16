@@ -5,10 +5,10 @@ weight: 1
 
 In this step, you will create Recommender System Online part infrastructure
 
-1. Go to /home/ec2-user/environment/recommender-system-solution/scripts directory
+1. Go to /home/ec2-user/environment/recommender-system-dev-workshop/scripts directory
 
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
 ```
 
 2. Run the command below to create infrastructure, including:

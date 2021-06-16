@@ -1,4 +1,4 @@
-baseURL = "https://gcr-solutions.github.io/recommender-system-solution/"
+baseURL = "https://gcr-solutions.github.io/recommender-system-dev-workshop/"
 languageCode = "en-us"
 title = "Recommender System Solution"
 theme = "hugo-theme-learn"

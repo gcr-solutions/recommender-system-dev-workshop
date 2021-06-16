@@ -5,10 +5,10 @@ weight: 2
 
 In this step, you will setup Argo CD server in EKS cluster
 
-1. Go to /home/ec2-user/environment/recommender-system-solution/scripts directory
+1. Go to /home/ec2-user/environment/recommender-system-dev-workshop/scripts directory
 
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
 ```
 
 2. Run the below command to setup argocd server in eks cluster 
