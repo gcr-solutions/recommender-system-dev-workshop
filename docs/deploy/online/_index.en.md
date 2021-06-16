@@ -8,9 +8,10 @@ In this module, we will deploy **GCR Recommender System Online Part**
 
 You’ll need the following steps:
 
+- [Create Codebuild project] TODO
 - [Create Infrastructure](./create-infra/readme)
+- [set config] TODO
 - [Setup Argo CD server in eks cluster](./argocd-server/readme)
-- [Create Recommender System Application in Argo CD](./create-argocd-app/readme)
 
 
 
