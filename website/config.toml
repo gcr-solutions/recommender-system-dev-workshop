@@ -1,0 +1,18 @@
+baseURL = "https://gcr-solutions.github.io/recommender-system-solution/"
+languageCode = "en-us"
+title = "Recommender System Solution"
+theme = "hugo-theme-learn"
+contentDir = "../docs"
+canonifyURLs = true
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    languageName = "Chinese"
+    weight = 2   
+
+[params]
+  disableLandingPageButton = true
