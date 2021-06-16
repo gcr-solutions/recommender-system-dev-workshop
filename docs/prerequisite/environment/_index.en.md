@@ -3,18 +3,6 @@ title: ENVIRONMENT
 weight: 10
 ---
 
-1, AWS Account
-
-
-3, AWS Region
-4, Browser
-5, SageMaker Resource Requirement
-
----
-title: Environment
-weight: 10
----
-
 ## AWS Account
 In order to complete this workshop you’ll need an AWS Account with Administrator Access role. If you don’t have, create one now by clicking [here](https://aws.amazon.com/getting-started/)
 
