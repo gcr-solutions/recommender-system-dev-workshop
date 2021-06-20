@@ -7,8 +7,7 @@ weight: 40
 - overview
 - user
 - data
-- training model
-- new items
+(no portrait recall, no hot topic, no key words)
 
 2, Change code and deploy
 - online:
@@ -16,3 +15,7 @@ weight: 40
 - add hot topic
     
 - offline: ??
+
+3, 
+- training model
+- new items
