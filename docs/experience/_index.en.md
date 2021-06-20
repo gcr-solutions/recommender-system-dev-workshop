@@ -3,7 +3,7 @@ title: How Does The Recommender System Work
 weight: 40
 ---
 
-1. Use RS system
+1. Use RS system(@aoyu)
 - overview
 - user
 - data
@@ -14,8 +14,8 @@ weight: 40
 - add portrait recall
 - add hot topic
     
-- offline: ??
+- offline: (@liuyong)
 
-3, 
+3, (@aoyu)
 - training model
 - new items
