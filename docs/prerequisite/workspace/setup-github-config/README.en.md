@@ -12,7 +12,7 @@ git config --global user.email "your_email@example.com"
 
 2, Set up ssh on your cloud9 workspace.
 
-Check if you have files ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub. if not, please follow [Create an SSH key](https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/) to create such public/private keys.
+Check if you have files ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub. if not, please follow [Create an SSH key](https://gcr-solutions.github.io/recommender-system-dev-workshop-code/prerequisite/workspace/create-ssh-key/readme/) to create such public/private keys.
 
 Copy your public key (content of ~/.ssh/id_rsa.pub file) into your clipboard.
 

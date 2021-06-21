@@ -5,10 +5,10 @@ weight: 2
 
 In this step, you will setup Argo CD server in EKS cluster
 
-1. Go to /home/ec2-user/environment/recommender-system-dev-workshop/scripts directory
+1. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
 
 ```sh
-cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 2. Run the below command to setup argocd server in eks cluster 
@@ -17,7 +17,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop/scripts
 ./setup-argocd-server.sh
 ```
 {{% notice info %}}
-This will take about 1 minutes to provision
+This will take about 2 minutes to provision
 {{% /notice %}}
 
 the console will output **user name**, **password** and server **endpoint** of argocd like below:

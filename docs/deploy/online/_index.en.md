@@ -3,21 +3,13 @@ title: Deploy The Online Part
 weight: 3
 ---
 
-In this module, we will deploy **GCR Recommender System Online Part**
+In this module, you'll create CI/CD and deploy **GCR Recommender System Online Part**
 
 
 You’ll need the following steps:
 
-- [Create Codebuild project] TODO
+- [Create Codebuild project](./create-online-ci/readme)
 - [Create Infrastructure](./create-infra/readme)
-- [configure redis] TODO
-- [Setup Argo CD server in eks cluster](./argocd-server/readme)
-
-
-
-
-
-
-
-
-
+- [Update online configuration](./update-online-config/readme)
+- [Create Argo CD server](./argocd-server/readme)
+- [Create Argo CD application](./create-argocd-app/readme)
