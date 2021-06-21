@@ -10,7 +10,7 @@ You’ll need the following steps:
 
 - [Prepare code and scripts](./deploy-prepare/readme)
 - [Deploy Recommender System Offline](./offline/readme)
-- [Deploy Recommender System Online](./online/readme)
+- [Deploy Recommender System Online](./online)
 
 ## API Overview 
 

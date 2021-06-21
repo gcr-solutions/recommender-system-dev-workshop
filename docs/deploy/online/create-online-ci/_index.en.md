@@ -1,9 +1,9 @@
 ---
-title: Create Online CI
+title: Create Online Code Build Projects
 weight: 1
 ---
 
-In this step, you'll create AWS codebuild project to build services of Recommender System Online part, including `demo`,`event`,`filter`,`loader`,`portrait`,`rank`,`recall`,`retrieve`,`ui`.
+In this step, you'll create AWS codebuild project to build services of Recommender System Online part, including **demo**, **event**, **filter**, **loader**, **portrait**, **rank**, **recall**, **retrieve**, **ui**.
 
 1. Set your own configuration.
 - In your cloud9 workspace, double click `online-code-build-setup.sh` file in the cloud9 left sidebar. It looks like below:
