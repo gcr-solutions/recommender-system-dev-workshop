@@ -11,5 +11,6 @@ As an end user for the recommender system, you will log into the system, change 
 
 You’ll have the following three steps:
 - [Experience Recommender System @Aoyu](./experience/readme)
-- [Develop Recommender System @Mingtong @Liuyong](./develop/readme)
+- [Develop Recommender System Online Part @Mingtong](./develop-online/readme)
+- [Develop Recommender System Offline Part @Liuyong](./develop-offline/readme)
 - [Train Model and Add New Items @Aoyu](./train/readme)
