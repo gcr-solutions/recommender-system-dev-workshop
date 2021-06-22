@@ -5,6 +5,8 @@ weight: 44
 
 In this part, you'll change some code to add two features in online part, and then deploy them to your Recommender System.
 
+show log for current recommendation list (TODO)
+
 1. Add portrait recall. The recommender system that you just deployed only has recall according to user recent clicked, and you'll follow below steps to add another recall according to user portrait.
 - Open file
 - Change code, because we already prepared the code, you just need to uncomment this code.
@@ -24,3 +26,5 @@ part is top recommendation according to the most interested type in your portrai
 the entertainment, the first 2-3 lines of recommendation list are entertainment news:
 
 ![Top-Type-News](/images/top-type-news.png)
+
+show log for current recommendation list (TODO)

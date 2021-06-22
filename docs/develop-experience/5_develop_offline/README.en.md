@@ -4,3 +4,5 @@ weight: 45
 ---
 
 TODO from @Liuyong
+
+show log for current recommendation list (TODO)
