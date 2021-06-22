@@ -13,10 +13,10 @@ In this section, you'll need to fork a github repo from [recommender-system-dev-
 
 ![Fork Repo](/images/fork-repo.png)
 
-3. Clone repo to your cloud9 workspace, please replace `your github user name` to your github user name.
+3. Clone repo to your cloud9 workspace, please replace **<your github user name>** to your github user name.
 
 ```sh
 cd /home/ec2-user/environment
-git clone https://github.com/`your github user name`/recommender-system-dev-workshop-code
+git clone git@github.com:<your github user name>/recommender-system-dev-workshop-code.git
 cd recommender-system-dev-workshop-code/
 ```

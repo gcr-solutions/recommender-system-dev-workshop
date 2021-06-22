@@ -12,7 +12,7 @@ weight: 2
 
 ![IAM Role Admin Permission](/images/iam-role-administratorAccess.png)
 
-4. Enter `gcr-rs-workshop-admin` for the Name, and select **Create Role**
+4. Enter `gcr-rs-dev-workshop-admin` for the Name, and select **Create Role**
 
 ![IAM Role Created](/images/iam-role-name-create.png)
 

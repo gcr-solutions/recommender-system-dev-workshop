@@ -55,7 +55,7 @@ aws configure get default.region
 Use the [GetCallerIdentity](https://docs.aws.amazon.com/cli/latest/reference/sts/get-caller-identity.html) CLI command to validate that the Cloud9 IDE is using the correct IAM role.
 
 ```sh
-aws sts get-caller-identity --query Arn | grep gcr-rs-workshop-admin -q && echo "IAM role valid" || echo "IAM role NOT valid"
+aws sts get-caller-identity --query Arn | grep gcr-rs-dev-workshop-admin -q && echo "IAM role valid" || echo "IAM role NOT valid"
 ```
 
 You should get **IAM role valid** message, If the IAM role is not valid, <span style="color: red;">**DO NOT PROCEED**</span>. Go back and confirm the steps on this page.
