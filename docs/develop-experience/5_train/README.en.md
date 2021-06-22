@@ -1,6 +1,6 @@
 ---
 title: Train, TODO from Aoyu
-weight: 4
+weight: 45
 ---
 
 - training model

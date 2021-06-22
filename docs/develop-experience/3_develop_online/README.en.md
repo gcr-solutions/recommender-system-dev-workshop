@@ -1,6 +1,6 @@
 ---
 title: Develop Online of Recommender System
-weight: 2
+weight: 43
 ---
 
 In this part, you'll change some code to add two features in online part, and then deploy them to your Recommender System.
