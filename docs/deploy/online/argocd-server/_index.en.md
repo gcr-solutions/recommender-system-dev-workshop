@@ -1,6 +1,6 @@
 ---
 title: Setup Argo cd Server
-weight: 2
+weight: 4
 ---
 
 In this step, you will setup Argo CD server in EKS cluster

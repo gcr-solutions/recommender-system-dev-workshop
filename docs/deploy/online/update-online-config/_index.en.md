@@ -1,5 +1,5 @@
 ---
-title: Set Online Config
+title: Update Config
 weight: 3
 ---
 
@@ -21,7 +21,6 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 3. Push your change to your github repo through below command:
-
 ```sh
 git add ../manifests/envs/news-dev/config.yaml
 git commit -m "update config"

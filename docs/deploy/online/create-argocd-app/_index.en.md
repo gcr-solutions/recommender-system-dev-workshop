@@ -1,6 +1,6 @@
 ---
 title: Create Argo cd application
-weight: 3
+weight: 5
 ---
 
 In this step, you will create Argo CD application to deploy all online services into EKS cluster

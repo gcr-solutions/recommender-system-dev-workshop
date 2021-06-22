@@ -27,4 +27,5 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 3. Go to [AWS Codebuild Console](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/home?region=ap-northeast-1) to check all services project have been created successfully.
 picture
 
-4. After a few minutes, all these projects should run successfully, if any project fails, please run it again.
+4. After a few minutes, all these projects should run successfully like below. **If any project fails, please run it again.**
+![Codebuild Succeed](/images/codebuild-successfully.png)

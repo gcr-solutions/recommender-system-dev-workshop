@@ -9,7 +9,7 @@ In this section, you'll need to fork a github repo from [recommender-system-dev-
 
 ![Fork Button](/images/fork-button.png)
 
-2. Click user name to fork repo, then you should get a **recommender-system-dev-workshop-code** repo in your user account. The repo link should be https://github.com/`your github user name`/recommender-system-dev-workshop-code
+2. Click user name to fork repo, then you should get a **recommender-system-dev-workshop-code** repo in your user account. The repo link should be https://github.com/**<your github user name>**/recommender-system-dev-workshop-code
 
 ![Fork Repo](/images/fork-repo.png)
 
