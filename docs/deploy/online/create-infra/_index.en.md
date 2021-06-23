@@ -18,7 +18,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 - elastic cache(redis)
 
 ```sh
-./create-online-infra.sh
+./setup-online-part.sh infra
 ```
 
 {{% notice info %}}

@@ -17,11 +17,12 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 - Region
 
 ```sh
-./update-online-config.sh
+./setup-online-part.sh config
 ```
 
 3. Push your change to your github repo through below command:
 ```sh
+git pull
 git add ../manifests/envs/news-dev/config.yaml
 git commit -m "update config"
 git push

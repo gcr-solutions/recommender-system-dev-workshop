@@ -14,7 +14,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 2. Run below command to create and deploy online part:=
 
 ```sh
-./create-argocd-application.sh
+./setup-online-part.sh application
 ```
 
 After about 1 minutes, the console will output as below:

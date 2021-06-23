@@ -14,7 +14,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 2. Run the below command to setup argocd server in eks cluster 
 
 ```sh
-./setup-argocd-server.sh
+./setup-online-part.sh argo-server
 ```
 {{% notice info %}}
 This will take about 2 minutes to provision
