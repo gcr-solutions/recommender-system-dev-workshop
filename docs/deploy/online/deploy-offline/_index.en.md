@@ -8,7 +8,7 @@ weight: 2
 ``` 
 
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./create-offline.sh
+./setup-rs-system.sh deploy-offline
 
 ```
 

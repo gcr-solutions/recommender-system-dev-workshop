@@ -1,6 +1,6 @@
 ---
 title: Create Infrastructure
-weight: 2
+weight: 3
 ---
 
 In this step, you will create Recommender System Online part infrastructure
@@ -18,7 +18,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 - elastic cache(redis)
 
 ```sh
-./setup-online-part.sh infra
+./setup-rs-system.sh infra
 ```
 
 {{% notice info %}}
