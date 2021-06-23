@@ -1,6 +1,6 @@
 ---
 title: Create Argo cd application
-weight: 5
+weight: 6
 ---
 
 In this step, you will create Argo CD application to deploy all online services into EKS cluster
@@ -14,12 +14,12 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 2. Run below command to create and deploy online part:=
 
 ```sh
-./setup-online-part.sh application
+./setup-rs-system.sh application
 ```
 
-After about 1 minutes, the console will output as below:
+After about 1 minutes, the console will message as below:
 
-![Argocd create application](/images/argocd-create-app.png)
+**application 'gcr-recommender-system-news-dev' created**
 
 3. Access argo cd portal to check services deployment status. **Please make sure all the heart status become green and all the rotating tags become stable!!**:
 

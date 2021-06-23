@@ -6,7 +6,7 @@ weight: 1
 In this step, you'll create AWS codebuild project to build services of Recommender System Online part, including **demo**, **event**, **filter**, **loader**, **portrait**, **rank**, **recall**, **retrieve**, **ui**.
 
 1. Set your own configuration.
-- In your cloud9 workspace, double click `setup-online-part.sh` file in the cloud9 left sidebar. It looks like below:
+- In your cloud9 workspace, double click `setup-rs-system.sh` file in the cloud9 left sidebar. It looks like below:
 ![Update Codebuild Config](/images/update-codebuild-config.png)
 
 - Replace <github_user_name> with your github account user name.
@@ -17,11 +17,11 @@ In this step, you'll create AWS codebuild project to build services of Recommend
 
 - Save your change
 
-2. Run `./setup-online-part.sh codebuild` to create codebuild projects
+2. Run `./setup-rs-system.sh codebuild` to create codebuild projects
 
 ```sh
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./setup-online-part.sh codebuild
+./setup-rs-system.sh codebuild
 ```
 {{% notice info %}}
 This will take about 10 minutes to provision

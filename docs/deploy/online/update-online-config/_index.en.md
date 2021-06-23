@@ -1,6 +1,6 @@
 ---
 title: Update Config
-weight: 3
+weight: 4
 ---
 
 In this step, you'll update online services config according to infrastructure created in previous steps.
@@ -17,7 +17,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 - Region
 
 ```sh
-./setup-online-part.sh config
+./setup-rs-system.sh config
 ```
 
 3. Push your change to your github repo through below command:

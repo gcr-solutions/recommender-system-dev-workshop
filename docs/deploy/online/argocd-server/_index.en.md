@@ -1,6 +1,6 @@
 ---
 title: Setup Argo cd Server
-weight: 4
+weight: 5
 ---
 
 In this step, you will setup Argo CD server in EKS cluster
@@ -14,7 +14,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 2. Run the below command to setup argocd server in eks cluster 
 
 ```sh
-./setup-online-part.sh argo-server
+./setup-rs-system.sh argo-server
 ```
 {{% notice info %}}
 This will take about 2 minutes to provision
