@@ -8,9 +8,10 @@ weight: 45
 src/offline/news/inverted-list/src/inverted-list.py
 ```
 
-line 268, change the line to 
+line 268-269, change two lines as below
 ``` python
-df_update.loc[df_update.new == 1, 'popularity'] = 0.0
+    df_update.loc[df_update.new == 1, 'popularity'] = 10.0
+    df_update.loc[df_update.new == 1, 'new'] = 0
 ```
 
 2. commit your code
