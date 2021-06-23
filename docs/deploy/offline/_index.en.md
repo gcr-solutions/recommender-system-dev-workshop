@@ -3,11 +3,20 @@ title: Deploy The Offline Logic(@liuyong, @Aoyu)
 weight: 2
 ---
 
-Setup offline part
+1. Setup offline
 
-1, Setup infra
+``` 
 
-2, Create codebuild project(CI)
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
+./create-offline.sh
+
+```
+
+2. Go to [AWS code build console](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1)
+, check your code build projects, make sure they are all successful
+
+
+
 
 
 

@@ -15,7 +15,13 @@ cd /home/ec2-user/environment/recommender-system-solution/scripts
 This will take about 20 minutes to release resources
 {{% /notice %}}
 
-2. offline cleanup (@Liuyong)
+2. offline cleanup
+``` 
+
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
+./clean-offline.sh
+
+```
 
 3. In the [Cloud9 Console](https://ap-northeast-1.console.aws.amazon.com/cloud9/home?region=ap-northeast-1#), select gcr-rs-dev-workshop env and click Delete button
 
