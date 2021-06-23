@@ -17,11 +17,11 @@ In this step, you'll create AWS codebuild project to build services of Recommend
 
 - Save your change
 
-2. Run `./setup-rs-system.sh codebuild` to create codebuild projects
+2. Run `./setup-rs-system.sh online-codebuild` to create online codebuild projects
 
 ```sh
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./setup-rs-system.sh codebuild
+./setup-rs-system.sh online-codebuild
 ```
 {{% notice info %}}
 This will take about 10 minutes to provision
