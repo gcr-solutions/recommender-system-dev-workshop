@@ -3,22 +3,22 @@ title: Develop Offline of Recommender System TODO from Liuyong
 weight: 45
 ---
 
-1. Update below file 
+## Change recall config 
+
+Run below script to change recall config file:
+
 ``` 
-src/offline/news/inverted-list/src/inverted-list.py
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
+
+./change-recall-config-offline.sh 
+
 ```
 
-line 268-269, change two lines as below
-``` python
-    df_update.loc[df_update.new == 1, 'popularity'] = 10.0
-    df_update.loc[df_update.new == 1, 'new'] = 0
-```
+The old config file:
 
-2. commit your code
+![recall config old](/images/recall-config-v1.png)
 
-3. run code build to build new docker image 
-   
-    Go to codebuild project `rs-dev-workshop-offline-news-inverted-list-build`, start codebuild for that project.
-    
-    ![rs-dev-workshop-offline-news-inverted-list-build](/images/offline-codebuild-inverted-list.png)
-    
+
+The new config file:
+
+![recall config new](/images/recall-config-v2.png)
