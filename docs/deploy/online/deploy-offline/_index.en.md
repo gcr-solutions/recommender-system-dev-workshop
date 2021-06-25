@@ -13,7 +13,13 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 2. Go to [AWS code build console](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1)
-, check your code build projects, make sure they are all successful
+, check your code build projects, search `rs-dev-workshop-offline-`,  make sure below projects are built successful.
+
+- `rs-dev-workshop-offline-lambda-build`
+- `rs-dev-workshop-offline-news-step-funcs-build`
+- `rs-dev-workshop-offline-news-inverted-list-build`
+
+![Verify offline codebuild](/images/offline-code-build.png)
 
 {{% notice info %}}
 This will take about 5 minutes to provision
