@@ -23,4 +23,4 @@ The new config file:
 
 ![recall config new](/images/recall-config-v2.png)
 
-The recall config file was changed and offline notified offline to load new config file.
+The recall config file was changed and offline notified online to load new config file.
