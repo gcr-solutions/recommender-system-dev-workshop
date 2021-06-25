@@ -7,7 +7,7 @@ weight: 45
 
 Run below script to change recall config file:
 
-``` 
+```sh 
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 ./change-recall-config-offline.sh 
@@ -22,3 +22,5 @@ The old config file:
 The new config file:
 
 ![recall config new](/images/recall-config-v2.png)
+
+The recall config file was changed and offline notified offline to load new config file.
