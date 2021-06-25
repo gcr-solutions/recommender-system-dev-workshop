@@ -10,7 +10,7 @@ This solution is built for three types of user, the end user, the administrator 
 As an end user for the recommender system, you will log into the system, change your portrait, click items and get recommendation results in real time. As an administrator, you can analyze the statistics of the system. Besides, you can trigger model training, add new items and batch process. As a developer, you can continue to improve the performance of recommender system. The story line of news recommendation is prepared in this part. During story line, you will know how the recommender system works.
 
 You’ll have the following three steps:
-- [Experience Recommender System @Aoyu](./experience/readme)
-- [Develop Recommender System Online Part @Mingtong](./develop-online/readme)
-- [Develop Recommender System Offline Part @Liuyong](./develop-offline/readme)
-- [Train Model and Add New Items @Aoyu](./train/readme)
+- [Experience Recommender System ](./experience/readme)
+- [Develop Recommender System Online Part ](./develop-online/readme)
+- [Develop Recommender System Offline Part ](./develop-offline/readme)
+- [Train Model and Add New Items ](./train/readme)

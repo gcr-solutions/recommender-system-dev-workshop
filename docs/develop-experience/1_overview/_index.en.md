@@ -17,8 +17,8 @@ The story line consists of the following parts, and these help you learn how a r
 * Update offline logic
     * In this part, you will learn how update offline logic to add more recall functions based on keywords.
 
-* Action model upda
+* Action model update
     * As more data gathered in the system, it is a good practice to re-train the model to ensure the performance.
 
-* New items added and batch update
+* New items added
     * In different scenarios, new items will be added to the system in different frequency. In this part, you will learn that how this can be achieved by calling two offline functions.

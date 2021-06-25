@@ -1,5 +1,5 @@
 ---
-title: Deploy The Offline Logic(@liuyong, @Aoyu)
+title: Deploy The Offline Logic
 weight: 2
 ---
 
@@ -14,6 +14,10 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 2. Go to [AWS code build console](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1)
 , check your code build projects, make sure they are all successful
+
+{{% notice info %}}
+This will take about 15 minutes to provision
+{{% /notice %}}
 
 
 
