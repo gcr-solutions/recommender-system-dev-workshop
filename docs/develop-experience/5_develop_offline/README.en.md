@@ -1,5 +1,5 @@
 ---
-title: Develop Offline of Recommender System TODO from Liuyong
+title: Develop Offline of Recommender System
 weight: 45
 ---
 
