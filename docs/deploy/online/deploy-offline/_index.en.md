@@ -16,7 +16,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 , check your code build projects, make sure they are all successful
 
 {{% notice info %}}
-This will take about 15 minutes to provision
+This will take about 5 minutes to provision
 {{% /notice %}}
 
 
