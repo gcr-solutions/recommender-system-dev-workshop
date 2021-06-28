@@ -54,7 +54,7 @@ Please wait about 4 minutes, make sure the execution of step functions `rs-dev-w
 
 [recommended list GUI](/images/rs-gui.png)
 
-4. View recall log in argo GUI
+3. View recall log in argo GUI
 
 From the log, we can see that new config is loaded
 [recall log load new config file](/images/recall-log-loadfile.png)
