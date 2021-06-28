@@ -9,18 +9,18 @@ weight: 45
 
 1. Open recall log GUI
 
-[recall argo log GUI](/images/recall-argo-log.png)
+![recall argo log GUI](/images/recall-argo-log.png)
 
 
 2. Click 4 ~ 5 news in the recommended list
 
-[recommended list GUI](/images/rs-gui.png)
+![recommended list GUI](/images/rs-gui.png)
 
 
 3. View recall log in argo GUI
 
 
-[recall log without keywords](/images/recall-log-nokeywords.png)
+![recall log without keywords](/images/recall-log-nokeywords.png)
 
 
 ###  Experience recall with `keywords`
@@ -52,13 +52,15 @@ Please wait about 4 minutes, make sure the execution of step functions `rs-dev-w
 
 2. Click 4 ~ 5 news in the recommended list again
 
-[recommended list GUI](/images/rs-gui.png)
+![recommended list GUI](/images/rs-gui.png)
 
 3. View recall log in argo GUI
 
 From the log, we can see that new config is loaded
-[recall log load new config file](/images/recall-log-loadfile.png)
+
+![recall log load new config file](/images/recall-log-loadfile.png)
 
 Recall with `keywords` is in the log
-[recall log with keywords](/images/recall-log-keywords.png)
+
+![recall log with keywords](/images/recall-log-keywords.png)
 
