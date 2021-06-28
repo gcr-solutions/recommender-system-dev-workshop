@@ -10,9 +10,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh deploy-offline
 ```
 
-132 / 5000
-翻译结果
-2.进入【AWS codebuild 控制台】(https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1)，检查你的代码构建项目，搜索`rs-dev-workshop-offline-`，确保下面所有的项目构建成功。
+2.进入 [AWS codebuild 控制台](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1) ，检查你的代码构建项目，搜索`rs-dev-workshop-offline-`，确保下面所有的项目构建成功。
 
 - `rs-dev-workshop-offline-lambda-build`
 - `rs-dev-workshop-offline-news-step-funcs-build`

@@ -9,8 +9,7 @@ In this module, we will deploy **GCR Recommender System**
 You’ll need the following steps:
 
 - [Prepare code and scripts](./deploy-prepare)
-- [Deploy Recommender System Offline](./offline)
-- [Deploy Recommender System Online](./online)
+- [Deploy Recommender System](./online)
 
 ## API Overview 
 

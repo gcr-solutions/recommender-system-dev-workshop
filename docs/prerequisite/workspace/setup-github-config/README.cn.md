@@ -4,6 +4,7 @@ weight: 6
 ---
 
 1.输入以下命令来配置git，请将`您的姓名`和`您的email`替换为您的Github帐户信息。
+
 ```git config --global user.name "Your name here" ```
 
 ```git config --global user.email "your_email@example.com" ```
@@ -11,6 +12,9 @@ weight: 6
 2. 在 cloud9 上设置 ssh。
 
 - 输入以下命令查看您是否有文件 `~/.ssh/id_rsa` 和 `~/.ssh/id_rsa.pub`。 如果没有，请按照 [创建 SSH 密钥](https://gcr-solutions.github.io/recommender-system-dev-workshop-code/prerequisite/workspace/create-ssh-key/readme/) 来创建 公钥/私钥。
+```sh
+ls ~/.ssh
+```
 
 将您的公钥（ ~/.ssh/id_rsa.pub 文件的内容）复制到剪贴板中。
 

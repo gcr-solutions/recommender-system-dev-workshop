@@ -22,7 +22,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 {{% notice info %}}
-This will take about 20 minutes to provision
+This will take about 30 minutes to provision
 {{% /notice %}}
 
 3. Verify the infrastructre already created successfully:

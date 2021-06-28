@@ -9,14 +9,14 @@ weight: 1
 
     ![Fork Button](/images/fork-button.png)
 
-2. 点击用户名来 fork 仓库，您的GitHub账号会增加 **recommender-system-dev-workshop-code** 仓库。链接应该是 https://github.com/ **您的 github 用户名** /recommender-system-dev-workshop-code
+2. 点击用户名来 fork 仓库，您的GitHub账号会增加 **recommender-system-dev-workshop-code** 仓库。链接应该是 https://github.com/**您的github用户名**/recommender-system-dev-workshop-code
 
 ![Fork Repo](/images/fork-repo.png)
 
-3. 将仓库克隆到您的Cloud9工作区，请将 **<your github user name>** 替换为您的Github用户名。
+3. 将仓库克隆到您的Cloud9工作区，请将 **<your-github-username>** 替换为您的Github用户名。
 
 ```sh
 cd /home/ec2-user/environment
-git clone git@github.com:<your github user name>/recommender-system-dev-workshop-code.git
+git clone git@github.com:<your-github-username>/recommender-system-dev-workshop-code.git
 cd recommender-system-dev-workshop-code/
 ```

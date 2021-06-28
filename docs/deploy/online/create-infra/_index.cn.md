@@ -22,7 +22,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 {{% notice info %}}
-这将需要大约 20 分钟来配置
+这将需要大约 30 分钟来配置
 {{% /notice %}}
 
 3. 验证已经成功创建的基础设施：
