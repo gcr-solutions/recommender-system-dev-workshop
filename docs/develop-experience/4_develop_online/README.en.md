@@ -41,7 +41,7 @@ the entertainment, the first 2-3 lines of recommendation list are entertainment 
 
 ```
 
-cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/plugins/news
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/recall/plugins/news
 git pull
 git add service_impl.py
 git commit -m "test for online portrait"
