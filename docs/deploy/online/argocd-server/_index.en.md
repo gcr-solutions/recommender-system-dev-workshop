@@ -40,4 +40,3 @@ Input **user name** and **password**, then click **SIGN IN**, the portal should 
 The argo cd server setup successfully!!
 
 
-
