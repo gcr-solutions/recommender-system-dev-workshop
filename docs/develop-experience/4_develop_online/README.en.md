@@ -12,6 +12,17 @@ In this part, you'll change some code to add two features in online part, and th
 # hot_topic_news_list = self.get_hot_topic_news_list(user_id, hot_topic_count, present_recommend_news_id_list, recommended_news_list)
 ```
 - Push your change to your github repo
+
+```
+
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/plugins/news
+git pull
+git add service.py
+git commit -m "test for online development"
+git push
+
+```
+
 - Go to [codebuild project](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1) to check **gcr-rs-dev-workshop-filter-build**, it should be triggered.
 - After **gcr-rs-dev-workshop-filter-build** succeeded, ArgoCD will deploy filter services in 3 minutes, please go to ArgoCD to check it.
 - Verify it.
@@ -27,6 +38,17 @@ the entertainment, the first 2-3 lines of recommendation list are entertainment 
 # self.recall_by_portrait(user_portrait, recall_wrap, recall_items, multiple_shot_record)
 ```
 - Push your change to your github repo
+
+```
+
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/plugins/news
+git pull
+git add service_impl.py
+git commit -m "test for online portrait"
+git push
+
+```
+
 - Go to [codebuild project](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1) to check **gcr-rs-dev-workshop-recall-build**, it should be triggered.
 - After **gcr-rs-dev-workshop-recall-build** succeeded, ArgoCD will deploy filter services in 3 minutes, please go to ArgoCD to check it.
 - Verify it. 
