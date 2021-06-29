@@ -10,7 +10,7 @@ weight: 47
 
 添加新物品到推荐系统：
 ```shell
-cd /home/ec2-user/environment/recommender-system-solution/sample-data
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/sample-data
 
 ./new_item_to_s3.sh
 

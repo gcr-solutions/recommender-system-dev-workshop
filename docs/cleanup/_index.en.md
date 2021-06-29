@@ -7,7 +7,7 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
 1. In the Cloud9 IDE Console, run below command to delete online:
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./clean-online.sh
 ```
 

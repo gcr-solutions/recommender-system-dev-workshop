@@ -7,7 +7,7 @@ weight: 60
 
 1. 在 Cloud9 终端命令行中，运行以下命令删除推荐系统的在线部分： 
 ```sh
-cd /home/ec2-user/environment/recommender-system-solution/scripts
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./clean-online.sh
 ```
 
