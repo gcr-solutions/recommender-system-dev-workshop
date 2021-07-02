@@ -16,7 +16,7 @@ Enter the following command to check if you have files `~/.ssh/id_rsa` and `~/.s
 ls ~/.ssh
 ```
   
-if you do not have, please follow [Create an SSH key](https://gcr-solutions.github.io/recommender-system-dev-workshop-code/prerequisite/workspace/create-ssh-key/readme/) to create such public/private keys.
+if you do not have, please follow [Create an SSH key](https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/) to create such public/private keys.
 
 Copy your public key (content of ~/.ssh/id_rsa.pub file) into your clipboard.
 
