@@ -11,7 +11,13 @@ weight: 3
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
-2. 运行以下命令创建基础设施，包括：
+2. 打开 **eks/nodes-config.yaml** 文件，将 **metadata.region** 改为您目前的区域，默认为 ap-northeast-1 (Tokyo)。 **请注意**：如果您使用的是 us-east-1 (N.Virginia) 区域，则需要添加以下配置：
+   
+    `availabilityZones: ['us-east-1a', 'us-east-1b', 'us-east-1c', 'us-east-1d', 'us-east-1f']`
+   
+    ![change nodes config](/images/change-nodes-config.png)
+
+3. 运行以下命令创建基础设施，包括：
 - eks cluster
 - istio
 - efs
@@ -25,7 +31,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 这将需要大约 30 分钟来配置
 {{% /notice %}}
 
-3. 验证已经成功创建的基础设施：
+4. 验证已经成功创建的基础设施：
 
 - 检查 EFS 创建成功，控制台输出应如下所示：
 

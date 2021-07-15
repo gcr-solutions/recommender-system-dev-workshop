@@ -11,7 +11,13 @@ In this step, you will create Recommender System Online part infrastructure
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
-2. Run the command below to create infrastructure, including:
+2. open **eks/nodes-config.yaml** file, and replace the **metadata.region** with your current region. The default value is ap-northeast-1 (Tokyo). **Attention**: If you are using the us-east-1 (N.Virginia) region, you need to add the following statement to the file:
+
+    `availabilityZones: ['us-east-1a', 'us-east-1b', 'us-east-1c', 'us-east-1d', 'us-east-1f']`
+
+   ![change nodes config](/images/change-nodes-config.png)
+
+3. Run the command below to create infrastructure, including:
 - eks cluster
 - istio
 - efs
@@ -25,7 +31,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 This will take about 30 minutes to provision
 {{% /notice %}}
 
-3. Verify the infrastructre already created successfully:
+4. Verify the infrastructre already created successfully:
 
 Check EFS created successfully, the console output should like below:
 
