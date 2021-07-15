@@ -31,6 +31,7 @@ rm -vf ${HOME}/.aws/credentials
 ```sh
 export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account)
 export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
+export REGION=${AWS_REGION}
 ```
 
 检查 AWS_REGION 是否设置为所需区域，您应该得到 **AWS_REGION is ap-northeast-1** 

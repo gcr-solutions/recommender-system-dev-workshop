@@ -33,6 +33,7 @@ We should configure our aws cli with our current region as default.
 ```sh
 export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account)
 export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
+export REGION=${AWS_REGION}
 ```
 
 Check if AWS_REGION is set to desired region, you should get **AWS_REGION is ap-northeast-1**
