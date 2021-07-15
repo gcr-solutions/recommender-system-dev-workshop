@@ -15,7 +15,7 @@ kubectl version --client 您应该会看到 kubectl 版本消息。</description
 打开您的 Cloud9 工作区并单击齿轮图标（在右上角） 选择 AWS SETTINGS 关闭 AWS managed temporary credentials 关闭设置 安装 jq 工具
 sudo yum -y install jq 为确保没有使用临时证书，我们还将删除所有现有的证书：
 rm -vf ${HOME}/.aws/credentials 将当前的区域作为默认区域, 并配置 aws cli。
-export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account) export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r &amp;#39;.region&amp;#39;) 检查 AWS_REGION 是否设置为所需区域，您应该得到 AWS_REGION is ap-northeast-1
+export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account) export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r &amp;#39;.region&amp;#39;) export REGION=${AWS_REGION} 检查 AWS_REGION 是否设置为所需区域，您应该得到 AWS_REGION is ap-northeast-1
 test -n &amp;#34;$AWS_REGION&amp;#34; &amp;amp;&amp;amp; echo AWS_REGION is &amp;#34;$AWS_REGION&amp;#34; || echo AWS_REGION is not set 运行以下命令将相关数据保存到 bash_profile:</description></item><item><title>创建 SSH 密钥</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</guid><description>请运行此命令在 Cloud9 中生成 SSH 密钥。 如有必要，此密钥将用于工作节点实例以允许 ssh 访问。
 ssh-keygen 按回车 3次以采用默认选择
 将公钥上传到您的 EC2 实例：
