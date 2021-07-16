@@ -3,13 +3,13 @@ title: 创建 Argo CD 应用时出现错误
 weight: 72
 ---
 
-1. 如果在您执行 **创建 Argo CD 应用** 时出现以下错误：
+1. 如果在您执行此步骤时出现以下错误：
 ```
    An error occurred (ResourceNotFoundException) when calling the UpdataFunctionConfiguration operation: Function not found: ... :rs-dev-workshop-SNSMessageLambda
 ```
    则证明您的Lambda未创建成功。 检查您的 Lambda 服务是否拥有 `S3: CreateBucket` 权限， 若没有， 您需要先创建一个 S3 桶，桶名为 `aws-gcr-rs-sol-dev-workshop-${REGION}-${AWS_ACCOUNT_ID}` 。
 
-2. 如果在您执行 **创建 Argo CD 应用** 时，部分 pod 的心跳长时间显示失败，如下所示：
+2. 如果在您执行此步骤时，部分 pod 的心跳长时间显示失败，如下所示：
    
 ![argocd heart unhealthy](/images/argocd-heart-unhealthy.png)
 

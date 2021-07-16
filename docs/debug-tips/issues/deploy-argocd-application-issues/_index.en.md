@@ -3,9 +3,7 @@ title: Create Argo CD Application Issues
 weight: 72
 ---
 
-If you encounter the following problems during development, please refer to the related solutions:
-
-1. If you get the following error in the **Create Argo CD Application** step：
+1. If you get the following error in this section：
 
 ```
    An error occurred (ResourceNotFoundException) when calling the UpdataFunctionConfiguration operation: Function not found: ... :rs-dev-workshop-SNSMessageLambda
@@ -13,7 +11,7 @@ If you encounter the following problems during development, please refer to the 
 
 It proves that your Lambda created failed. Check if your Lambda service has `S3: CreateBucket` permission. If not, you need to create an S3 bucket first with the bucket name `aws-gcr-rs-sol-dev-workshop-${REGION}-${AWS_ACCOUNT_ID}`.
 
-2. In the **Create Argo CD Application** step, if the heart status of some pods fails for a long time, as shown below:
+2. If the heart status of some pods fails for a long time, as shown below:
    
 ![argocd heart unhealthy](/images/argocd-heart-unhealthy.png)
 
