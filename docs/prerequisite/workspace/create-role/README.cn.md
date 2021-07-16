@@ -19,7 +19,7 @@ weight: 2
    - AWS AutoScaling
    - AWS CloudFormation
    
-2. 首先打开 [策略链接](), 复制 gcr-rs-role.json 文件中的内容。
+2. 首先打开 [策略链接](https://github.com/gcr-solutions/recommender-system-dev-workshop-code/blob/main/scripts/role/gcr-rs-role.json), 复制 gcr-rs-role.json 文件中的内容。
 
 3. 打开创建策略的 [链接](https://console.aws.amazon.com/iam/home#/policies$new?step=edit), 在 JSON 栏中粘贴上一步复制的内容，**注意**: 在第32至38行与第48行，将 `<account_id>` 改为您的AWS 账户 ID。完成后点击下一步。
 
