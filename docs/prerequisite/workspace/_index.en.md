@@ -1,5 +1,5 @@
 ---
-title: Workspace setup
+title: Workspace Setup
 weight: 20
 ---
 

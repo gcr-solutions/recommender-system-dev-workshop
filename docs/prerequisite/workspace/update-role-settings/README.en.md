@@ -1,5 +1,5 @@
 ---
-title: Update IAM settings for your workspace
+title: Update IAM Settings For Your Workspace
 weight: 4
 ---
 

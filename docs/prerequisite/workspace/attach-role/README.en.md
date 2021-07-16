@@ -1,5 +1,5 @@
 ---
-title: Attach the IAM role to your workspace
+title: Attach The IAM Role To Your Workspace
 weight: 3
 ---
 

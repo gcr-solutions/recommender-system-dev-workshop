@@ -1,5 +1,5 @@
 ---
-title: Develop Offline of Recommender System
+title: Develop Offline Of Recommender System
 weight: 45
 ---
 

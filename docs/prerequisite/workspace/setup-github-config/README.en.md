@@ -1,5 +1,5 @@
 ---
-title: Setup GitHub account in Cloud9 workspace
+title: Setup GitHub Account In Cloud9 Workspace
 weight: 6
 ---
 
