@@ -3,16 +3,39 @@ title: Create an IAM role for your workspace
 weight: 2
 ---
 
-1. Follow [this deep link to create an IAM role with Administrator access.](https://console.aws.amazon.com/iam/home#/roles$new?step=review&commonUseCase=EC2%2BEC2&selectedUseCase=EC2&policies=arn:aws:iam::aws:policy%2FAdministratorAccess)
-2. Confirm that **AWS service** and **EC2** are selected, then click **Next: Permissions** to view permissions.
+1. You need to create an IAM role for Cloud9 service, this IAM role complies with the least permission principle. It contains the following AWS services：
+   - AWS IAM
+   - AMAZON S3
+   - AMAZON EKS
+   - AWS SecretsManager
+   - AWS CodeBuild
+   - AWS EFS
+   - AWS EC2
+   - AWS Elasticache
+   - AWS CloudWatch
+   - AWS AutoScaling
+   - AWS SSM
+   - AWS KMS
+   - AWS AutoScaling
+   - AWS CloudFormation
+   
+2. Click the [Link](), Copy the content in the `gcr-rs-role.json` file.
+
+3. Click the [Create Policy Link](https://console.aws.amazon.com/iam/home#/policies$new?step=edit), paste the content in the JSON bar. **Attention**: You need to replace `<account_id>` with your AWS account ID on line 32-38 and 48th. And click **Next: Tags**.
+
+![CREATE POLICY](/images/create-iam-policy.png)
+   
+4. Enter `gcr-rs-dev-workshop-admin-policy` in the Name bar, and click **Create Policy**.
+   
+5. Click [Create IAM Role Link](https://console.aws.amazon.com/iam/home#/roles$new?step=review&commonUseCase=EC2%2BEC2&selectedUseCase=EC2). Make sure the **AWS Service** and **EC2** are selected，and click **Next: Permissions**.
 
 ![IAM Role EC2](/images/iam-role-ec2.png)
 
-3. Confirm that **AdministratorAccess** is checked, then click **Next** to review.
+6. Search `gcr-rs-dev-workshop-admin-policy` and select it，then click **Next: Tags**.
 
-![IAM Role Admin Permission](/images/iam-role-administratorAccess.png)
+![IAM Role Least Permission](/images/iam-role-leastPermission.png)
 
-4. Enter `gcr-rs-dev-workshop-admin` for the Name, and select **Create Role**
+4. Enter `gcr-rs-dev-workshop-admin` in the Name bar，Click **Create role**.
 
 ![IAM Role Created](/images/iam-role-name-create.png)
 
