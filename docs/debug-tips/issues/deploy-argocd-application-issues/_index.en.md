@@ -1,5 +1,5 @@
 ---
-title: Create Argo CD Application Issues
+title: Create Argo CD Application
 weight: 72
 ---
 
