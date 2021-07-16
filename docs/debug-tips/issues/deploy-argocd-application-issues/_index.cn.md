@@ -1,5 +1,5 @@
 ---
-title: 创建 Argo CD 应用时出现错误
+title: 创建 Argo CD 应用
 weight: 72
 ---
 
