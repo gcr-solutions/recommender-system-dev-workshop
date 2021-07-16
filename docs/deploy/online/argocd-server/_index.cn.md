@@ -1,5 +1,5 @@
 ---
-title: 设置 Argo cd 服务器
+title: 设置 Argo CD 服务器
 weight: 5
 ---
 

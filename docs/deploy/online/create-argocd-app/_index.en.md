@@ -1,5 +1,5 @@
 ---
-title: Create Argo cd application
+title: Create Argo CD application
 weight: 6
 ---
 
