@@ -1,5 +1,5 @@
 ---
-title: Setup Argo cd Server
+title: Setup Argo CD Server
 weight: 5
 ---
 
