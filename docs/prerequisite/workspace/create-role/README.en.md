@@ -3,7 +3,7 @@ title: Create an IAM role for your workspace
 weight: 2
 ---
 
-1. You need to create an IAM role for Cloud9 service, this IAM role complies with the least permission principle. It contains the following AWS services：
+1. You need to create an IAM role for Cloud9 service, this IAM role complies with the Principle of least privilege. It contains the following AWS services：
    - AWS IAM
    - AMAZON S3
    - AMAZON EKS
@@ -21,7 +21,7 @@ weight: 2
    
 2. Click the [Link](https://github.com/gcr-solutions/recommender-system-dev-workshop-code/blob/main/scripts/role/gcr-rs-role.json), Copy the content in the `gcr-rs-role.json` file.
 
-3. Click the [Create Policy Link](https://console.aws.amazon.com/iam/home#/policies$new?step=edit), paste the content in the JSON bar. **Attention**: You need to replace `<account_id>` with your AWS account ID on line 32-37 and 47th. And click **Next: Tags**.
+3. Click the [Create Policy Link](https://console.aws.amazon.com/iam/home#/policies$new?step=edit), paste the content in the JSON bar. **Attention**: You need to replace `<account_id>` with your AWS Account ID. And click **Next: Tags**.
 
 ![CREATE POLICY](/images/create-iam-policy.png)
    
