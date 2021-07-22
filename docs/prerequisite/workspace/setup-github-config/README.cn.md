@@ -3,7 +3,7 @@ title: 在 Cloud9 中设置 GitHub 账户
 weight: 6
 ---
 
-1.输入以下命令来配置git，请将`您的姓名`和`您的email`替换为您的Github帐户信息。
+1. 输入以下命令来配置git，请将`您的姓名`和`您的email`替换为您的Github帐户信息。
 
 ```git config --global user.name "Your name here" ```
 

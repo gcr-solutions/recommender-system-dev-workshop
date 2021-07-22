@@ -5,7 +5,7 @@ weight: 6
 
 在本节中，您将在 EKS 集群中创建 Argo CD 应用程序并部署所有在线服务
 
-1.进入/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
+1. 进入/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
 
 ```sh
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts

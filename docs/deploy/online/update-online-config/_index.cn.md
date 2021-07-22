@@ -5,7 +5,7 @@ weight: 4
 
 在此步骤中，您将根据先前创建的基础设施来更新在线服务配置。
 
-1.跳转到/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
+1. 跳转到/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
 
 ```sh
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts

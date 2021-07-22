@@ -23,7 +23,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 ```
 
-3.在 [Cloud9 控制台](https://ap-northeast-1.console.aws.amazon.com/cloud9/home?region=ap-northeast-1#) 中，选择并删除 `gcr-rs-workshop env `。
+3. 在 [Cloud9 控制台](https://ap-northeast-1.console.aws.amazon.com/cloud9/home?region=ap-northeast-1#) 中，选择并删除 `gcr-rs-workshop env `。
 
 4. 在 [IAM 角色控制台](https://console.aws.amazon.com/iam/home#/roles) 中, 选择并删除 `gcr-rs-dev-workshop-admin` 角色。
 

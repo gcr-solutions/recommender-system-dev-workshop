@@ -47,7 +47,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成
 {{% /notice %}}
 
-2.再次点击推荐列表中的4~5条新闻
+2. 再次点击推荐列表中的4~5条新闻
 
 ![recommended list GUI](/images/rs-gui.png)
 

@@ -17,7 +17,7 @@ weight: 1
 
 - 保存您的更改
 
-2.运行以下命令创建在线CodeBuild项目
+2. 运行以下命令创建在线CodeBuild项目
 
 ```sh
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts

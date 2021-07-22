@@ -29,7 +29,7 @@ git push
   
 ![Top-Type-News](/images/top-type-news.png)
 
-2.增加用户画像召回功能。 您刚刚部署的推荐系统只是根据用户的最近点击新闻来进行召回，您将按照以下步骤添加根据用户画像进行召回的功能。
+2. 增加用户画像召回功能。 您刚刚部署的推荐系统只是根据用户的最近点击新闻来进行召回，您将按照以下步骤添加根据用户画像进行召回的功能。
 - 打开`/recommender-system-dev-workshop-code/src/recall/plugins/news/service_impl.py`文件
 - 找到第 142 行并取消注释下面的代码。
 ```

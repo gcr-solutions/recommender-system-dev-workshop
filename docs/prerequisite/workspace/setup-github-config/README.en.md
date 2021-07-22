@@ -29,7 +29,7 @@ Copy your public key (content of ~/.ssh/id_rsa.pub file) into your clipboard.
 - Add a title (like “My Cloud9”) and paste the public key into the key text box.
 ![Paste Github SSH key](/images/paste-github-ssh-key.png)
 
-4, Test your configuration through the following command:
+4. Test your configuration through the following command:
 ```sh
 ssh -T git@github.com
 ```
