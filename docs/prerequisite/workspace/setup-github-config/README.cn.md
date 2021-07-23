@@ -17,7 +17,7 @@ weight: 6
     ```
     如果没有，请按照 [创建 SSH 密钥](https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/) 来创建公钥与私钥。
    
-    输入以下命令并复制命令行的输出(公钥)：
+    输入以下命令并**复制**命令行的输出(公钥)：
    
     ```sh
     cat ~/.ssh/id_rsa.pub

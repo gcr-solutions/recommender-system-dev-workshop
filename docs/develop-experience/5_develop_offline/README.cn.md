@@ -9,55 +9,50 @@ weight: 45
 
 1. 在 argo GUI 中查看召回日志
 
-![recall argo log GUI](/images/recall-argo-log.png)
-
+    ![recall argo log GUI](/images/recall-argo-log.png)
 
 2. 在推荐列表中点击 4 ～ 5 个新闻
 
-![recommended list GUI](/images/rs-gui.png)
-
+    ![recommended list GUI](/images/rs-gui.png)
 
 3. 在 ArgoCD 网站中查看召回服务日志
 
-
-![recall log without keywords](/images/recall-log-nokeywords.png)
-
+    ![recall log without keywords](/images/recall-log-nokeywords.png)
 
 ###  体验包含关键词的召回逻辑
 
 1. 运行以下脚本来更改召回配置文件：
 
-```sh 
-cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-recall-config-offline.sh 
-```
+    ```sh 
+    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
+    ./change-recall-config-offline.sh 
+    ```
 
-旧的配置文件：
+    旧的配置文件：
+    
+    ![recall config old](/images/recall-config-v1.png)
 
-![recall config old](/images/recall-config-v1.png)
+    新的配置文件：
 
+    ![recall config new](/images/recall-config-v2.png)
 
-新的配置文件：
+    召回配置文件已更改，离线部分通知在线部分加载新的配置文件。
 
-![recall config new](/images/recall-config-v2.png)
-
-召回配置文件已更改，离线部分通知在线部分加载新的配置文件。
-
-{{% notice info %}}
-请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成
-{{% /notice %}}
+    {{% notice info %}}
+    请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成
+    {{% /notice %}}
 
 2. 再次点击推荐列表中的4~5条新闻
 
-![recommended list GUI](/images/rs-gui.png)
+    ![recommended list GUI](/images/rs-gui.png)
 
 3. 在 argo GUI 中查看召回日志
 
-从日志中，我们可以看到更新了新的配置
+    从日志中，我们可以看到更新了新的配置
 
-![recall log load new config file](/images/recall-log-loadfile.png)
+    ![recall log load new config file](/images/recall-log-loadfile.png)
 
-可以看到包含关键词的召回日志
+    可以看到包含关键词的召回日志
 
-![recall log with keywords](/images/recall-log-keywords.png)
+    ![recall log with keywords](/images/recall-log-keywords.png)
 

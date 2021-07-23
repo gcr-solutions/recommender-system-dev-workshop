@@ -19,7 +19,7 @@ weight: 6
   
     If you do not have, please follow [Create an SSH key](https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/) to create such public/private keys.
 
-    Enter the following command and copy to your clipboard.
+    Enter the following command and **copy** to your clipboard.
 
     ```shell
     cat ~/.ssh/id_rsa.pub
