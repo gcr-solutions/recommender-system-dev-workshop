@@ -14,7 +14,8 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/pl
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts ./change-recall-config-offline.sh 旧的配置文件：
 新的配置文件：
 召回配置文件已更改，离线部分通知在线部分加载新的配置文件。
-请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成 再次点击推荐列表中的4~5条新闻
+请等待大约 4 分钟，确保步骤函数 rs-dev-workshop-News-NotificationStepFunc 执行完成
+再次点击推荐列表中的4~5条新闻
 在 argo GUI 中查看召回日志
 从日志中，我们可以看到更新了新的配置
 可以看到包含关键词的召回日志</description></item></channel></rss>
