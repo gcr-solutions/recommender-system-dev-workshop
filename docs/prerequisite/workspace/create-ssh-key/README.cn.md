@@ -3,7 +3,7 @@ title: 创建 SSH 密钥
 weight: 5
 ---
 
-请运行此命令在 Cloud9 中生成 SSH 密钥。 如有必要，此密钥将用于工作节点实例以允许 ssh 访问。 
+运行以下命令在 Cloud9 中生成 SSH 密钥，此密钥将允许以 ssh 方式访问工作节点实例。
 
 ```sh
 ssh-keygen

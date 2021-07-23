@@ -23,20 +23,20 @@ weight: 2
 
 3. Click the [Create Policy Link](https://console.aws.amazon.com/iam/home#/policies$new?step=edit), paste the content in the JSON bar. **Attention**: You need to replace `<account_id>` with your AWS Account ID. And click **Next: Tags**.
 
-![CREATE POLICY](/images/create-iam-policy.png)
+   ![CREATE POLICY](/images/create-iam-policy.png)
    
 4. Enter `gcr-rs-dev-workshop-admin-policy` in the Name bar, and click **Create Policy**.
    
 5. Click [Create IAM Role Link](https://console.aws.amazon.com/iam/home#/roles$new?step=review&commonUseCase=EC2%2BEC2&selectedUseCase=EC2). Make sure the **AWS Service** and **EC2** are selected，and click **Next: Permissions**.
 
-![IAM Role EC2](/images/iam-role-ec2.png)
+   ![IAM Role EC2](/images/iam-role-ec2.png)
 
 6. Search `gcr-rs-dev-workshop-admin-policy` and select it，then click **Next: Tags**.
 
-![IAM Role Least Permission](/images/iam-role-leastPermission.png)
+   ![IAM Role Least Permission](/images/iam-role-leastPermission.png)
 
-4. Enter `gcr-rs-dev-workshop-admin` in the Name bar，Click **Create role**.
+7. Enter `gcr-rs-dev-workshop-admin` in the Name bar，Click **Create role**.
 
-![IAM Role Created](/images/iam-role-name-create.png)
+   ![IAM Role Created](/images/iam-role-name-create.png)
 
 

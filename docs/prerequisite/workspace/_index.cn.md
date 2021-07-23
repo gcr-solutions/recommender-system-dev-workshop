@@ -1,5 +1,5 @@
 ---
-title: 设置Workspace
+title: 设置工作空间
 weight: 20
 ---
 
@@ -9,4 +9,4 @@ weight: 20
 - [创建 IAM 角色](./create-role/readme)
 - [附加 IAM 角色](./attach-role/readme)
 - [更新 IAM 设置](./update-role-settings/readme)
-- [创建 SSH key](./create-ssh-key/readme)
+- [创建 SSH 密钥](./create-ssh-key/readme)

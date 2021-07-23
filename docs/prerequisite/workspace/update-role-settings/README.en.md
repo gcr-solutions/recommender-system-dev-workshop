@@ -36,7 +36,7 @@ export AWS_REGION=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/doc
 export REGION=${AWS_REGION}
 ```
 
-Check if AWS_REGION is set to desired region, you should get **AWS_REGION is ap-northeast-1**
+Check if AWS_REGION is set to desired region:
 
 ```sh
 test -n "$AWS_REGION" && echo AWS_REGION is "$AWS_REGION" || echo AWS_REGION is not set
