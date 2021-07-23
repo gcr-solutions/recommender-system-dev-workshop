@@ -26,9 +26,10 @@ weight: 1
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
     ./setup-rs-system.sh online-codebuild
     ```
-    {{% notice info %}}
-    这将需要大约 10 分钟进行配置
-    {{% /notice %}}
+   
+{{% notice info %}}
+这将需要大约 10 分钟进行配置
+{{% /notice %}}
 
 3. 进入[AWS Codebuild 控制台](https://console.aws.amazon.com/codesuite/codebuild/home) 查看并确保所有的项目已经创建成功。
    

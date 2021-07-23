@@ -37,10 +37,10 @@ weight: 45
     ![recall config new](/images/recall-config-v2.png)
 
     召回配置文件已更改，离线部分通知在线部分加载新的配置文件。
-
-    {{% notice info %}}
-    请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成
-    {{% /notice %}}
+   
+   {{% notice info %}}
+   请等待大约 4 分钟，确保步骤函数 `rs-dev-workshop-News-NotificationStepFunc` 执行完成
+   {{% /notice %}}
 
 2. 再次点击推荐列表中的4~5条新闻
 
