@@ -25,11 +25,11 @@ weight: 60
    
 **注意**： 当您执行完以上步骤，推荐系统的在线与离线部分已经删除完成。若您想彻底清空所有资源，您还需执行以下步骤：
 
-4. 在 [Cloud9 控制台](https://ap-northeast-1.console.aws.amazon.com/cloud9/home?region=ap-northeast-1#) 中，选择并删除 `gcr-rs-workshop env `。
+4. 在 [Cloud9 控制台](https://console.aws.amazon.com/cloud9/home) 中，选择并删除 `gcr-rs-workshop env `。
 
 5. 在 [IAM 角色控制台](https://console.aws.amazon.com/iam/home#/roles) 中, 选择并删除 `gcr-rs-dev-workshop-admin` 角色。
 
-6. 在 [EC2 Key Pairs](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#KeyPairs:search=gcr-rs-dev-workshop-key) 中, 选择并删除 `gcr-rs-dev-workshop-key`。
+6. 在 [EC2 Key Pairs](https://console.aws.amazon.com/ec2/v2/home#KeyPairs:search=gcr-rs-dev-workshop-key) 中, 选择并删除 `gcr-rs-dev-workshop-key`。
 
 7. 打开您的 Github 账户，删除您复刻的推荐系统仓库。
 

@@ -21,7 +21,7 @@ weight: 44
     git push
     ```
 
-- 打开 [codebuild 项目](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1) 并检查 **gcr-rs-dev-workshop-filter-build**，它应该已经被触发。
+- 打开 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects) 并检查 **gcr-rs-dev-workshop-filter-build**，它应该已经被触发。
 - 当**gcr-rs-dev-workshop-filter-build**更新成功后，ArgoCD会在3分钟内部署filter服务，请到ArgoCD查看。
 - 验证：当点击三个新闻后，您将看到推荐列表由冷启动逻辑转换成个性化推荐逻辑。 推荐结果由两部分组成，第一部分是根据您的用户画像中最感兴趣的类型进行的顶级推荐。在这个例子中，由于**gcr-rs-admin**对娱乐很感兴趣，所以推荐列表的前3行是娱乐新闻：
   
@@ -43,7 +43,7 @@ weight: 44
     git push
     ```
 
-- 转到 [codebuild 项目](https://ap-northeast-1.console.aws.amazon.com/codesuite/codebuild/projects?region=ap-northeast-1) 检查 **gcr-rs-dev-workshop-recall-build**，它应该已经被触发。
+- 转到 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects) 检查 **gcr-rs-dev-workshop-recall-build**，它应该已经被触发。
 - **gcr-rs-dev-workshop-recall-build**成功后，ArgoCD会在3分钟内部署过滤服务，请到ArgoCD查看。
 - 验证：点击三个消息后，会触发召回过程，您可以到argo cd服务器查看召回服务日志，您应该在**recall result**中看到 **portrait_** 有关文本。
   
