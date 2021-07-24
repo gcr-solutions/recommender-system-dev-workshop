@@ -13,8 +13,8 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/pl
 体验包含关键词的召回逻辑 运行以下脚本来更改召回配置文件：
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts ./change-recall-config-offline.sh 旧的配置文件：
 新的配置文件：
-召回配置文件已更改，离线部分通知在线部分加载新的配置文件。
-请等待大约 4 分钟，确保步骤函数 rs-dev-workshop-News-NotificationStepFunc 执行完成
+召回配置文件已更改，离线部分通知在线部分加载新的配置文件。点击 Step Function链接 ，搜索 rs-dev-workshop-News-NotificationStepFunc 并等待该步骤函数状态为成功。
+此步骤大约需要 4 分钟
 再次点击推荐列表中的4~5条新闻
 在 argo GUI 中查看召回日志
 从日志中，我们可以看到更新了新的配置
