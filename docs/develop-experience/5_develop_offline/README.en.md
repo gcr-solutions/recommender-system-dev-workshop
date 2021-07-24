@@ -36,7 +36,7 @@ weight: 45
 
     ![recall config new](/images/recall-config-v2.png)
 
-    The recall config file has been changed and offline notified online to load new config file.
+    The recall config file has been changed and offline notified online to load new config file. Please click the [Step Function Link](https://console.aws.amazon.com/states/home#/statemachines), search `rs-dev-workshop-News-NotificationStepFunc` and wait the status become succeed.
 
     {{% notice info %}}
     Please wait about 4 minutes, make sure the execution of step functions `rs-dev-workshop-News-NotificationStepFunc` is complete
