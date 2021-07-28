@@ -14,15 +14,25 @@ AWS Cloud9 是一个基于云的集成开发环境 (IDE)，让您只需一个浏
     ![Create Cloud9 Environment](/images/create-cloud9-start.png)
 
 4. 命名为 `gcr-rs-dev-workshop`, 点击 **下一步**
-5. 保留所有默认选项, 点击 **下一步** 与 **创建环境**
+5. 如果您选择以下区域进行动手实践,请在配置中点开 **网络设置（高级）**，并在 **子网设置** 中选择相应区域的偏好:
+
+   |Region |Subnet |
+   |--- |--- |
+   |us-west-2|Default in us-west-2a |
+   |ap-south-1|Default in ap-south-1a |
+   |ap-northeast-2|Default in ap-northeast-2a |
+   |ca-central-1|Default in ca-central-1a |
+   |sa-east-1|Default in sa-east-1a |
    
-    {{% notice info %}}
-    这将需要大约 2 分钟的时间进行配置
-    {{% /notice %}}
+   如果您没有选择以上区域，则保留所有默认选项, 点击 **下一步** 与 **创建环境**
+   
+   {{% notice info %}}
+   这将需要大约 2 分钟的时间进行配置
+   {{% /notice %}}
 
-    当配置完成时，Cloud9 控制台环境应该如下所示： 
+   当配置完成时，Cloud9 控制台环境应该如下所示： 
 
-    ![Cloud9 Welcome](/images/cloud9-welcome.png)
+   ![Cloud9 Welcome](/images/cloud9-welcome.png)
 
 ## 配置 Cloud9 IDE 环境 
 

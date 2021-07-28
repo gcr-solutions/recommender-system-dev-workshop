@@ -14,15 +14,25 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
     ![Create Cloud9 Environment](/images/create-cloud9-start.png)
 
 4. Name it `gcr-rs-dev-workshop`, click **Next**
-5. Take all default values, click **Next step** and **Create environment**
+5. If you choose the following regions to proceed workshop, please click **Network Settings (Advanced)** in the **configure settings**, and select the preference settings of the corresponding region in **Subnet**
 
-    {{% notice info %}}
-    This will take about 2 minutes to provision
-    {{% /notice %}}
+   |Region |Subnet |
+   |--- |--- |
+   |us-west-2|Default in us-west-2a |
+   |ap-south-1|Default in ap-south-1a |
+   |ap-northeast-2|Default in ap-northeast-2a |
+   |ca-central-1|Default in ca-central-1a |
+   |sa-east-1|Default in sa-east-1a |
+   
+   If you did not select the above region, keep all the default options, and click **Next** and **Create Environment**
 
-    When it comes up, the cloud9 console environment should looks like below:
+   {{% notice info %}}
+   This will take about 2 minutes to provision
+   {{% /notice %}}
 
-    ![Cloud9 Welcome](/images/cloud9-welcome.png)
+   When it comes up, the cloud9 console environment should looks like below:
+
+   ![Cloud9 Welcome](/images/cloud9-welcome.png)
 
 ### Configure Cloud9 IDE environment
 
