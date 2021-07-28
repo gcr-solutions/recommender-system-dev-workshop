@@ -8,6 +8,9 @@ weight: 10
 
 **成本**: 如果您的账户不到 12 个月，AWS 免费套餐将包含此动手实践中所需的部分资源。有关更多详细信息，请参阅 [AWS 免费套餐页面](https://aws.amazon.com/free/) 。为避免在完成动手实践后产生额外的收费，请参阅 [清理资源](../../cleanup/) 。
 
+## Github 账号
+为了完成本次动手实践，您还需要一个 Github 账号。如果您没有 Github 账号，请点击 [注册Github账号](https://docs.github.com/cn/github/getting-started-with-github/signing-up-for-github) 创建你的 Github 帐户。
+
 ## AWS 地区
 一旦你选择了一个地区，你应该在该地区创建此动手实践的所有资源。 我们建议您选择 **Tokyo** 地区。 使用区域下拉列表选择 **Asia Pacific (Tokyo)ap-northeast-1**。 
 
