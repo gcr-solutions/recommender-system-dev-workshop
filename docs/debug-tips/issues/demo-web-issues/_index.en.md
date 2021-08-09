@@ -7,5 +7,5 @@ weight: 73
 
     ![pod failed log](/images/pod-failed-log.png)
 
-    If the displayed region is incorrect, please refer to the second question to modify the region in the **config.yaml** file. If it shows that there is no permission, please go to the **Create IAM Role** step to add the corresponding permission.
+    If the displayed region is incorrect, please refer to [Debug: Create Argo CD Application](../deploy-argocd-application-issues) to modify the region in the **config.yaml** file. If it shows that there is no permission, please go to the **Create IAM Role** step to add the corresponding permission.
 

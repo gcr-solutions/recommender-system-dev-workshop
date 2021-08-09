@@ -7,4 +7,4 @@ weight: 73
 
     ![pod failed log](/images/pod-failed-log.png)
 
-    若显示地区不对，请参考问题二的方式修改 config.yaml 文件中的地区。 若显示没有权限，请跳转到**创建 IAM 角色**步骤增加相应的权限。
+    若显示地区不对，请参考[调试：创建Argo CD应用](../deploy-argocd-application-issues)中的问题二，修改 config.yaml 文件中的地区。 若显示没有权限，请跳转到**创建 IAM 角色**步骤增加相应的权限。
