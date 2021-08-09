@@ -1,6 +1,6 @@
 ---
-title: Browse The Recommender System
-weight: 73
+title: Deploy CodeBuild
+weight: 74
 ---
 
 1. If you get an error of **assembled-train-model-build** when building Codebuild, as shown in the figure below:

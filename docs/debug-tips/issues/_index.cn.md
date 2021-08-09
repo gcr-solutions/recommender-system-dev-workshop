@@ -7,4 +7,5 @@ weight: 71
 
 - [创建 Argo CD 应用](./deploy-argocd-application-issues)
 - [浏览推荐系统](./demo-web-issues)
+- [构建CodeBuild](./codebuild-issues)
 
