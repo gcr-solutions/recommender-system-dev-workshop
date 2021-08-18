@@ -4,7 +4,7 @@ weight: 10
 ---
 
 ## AWS Account
-In order to complete this workshop you’ll need an AWS Account with Administrator Access role. If you don’t have, create one now by clicking [here](https://aws.amazon.com/getting-started/)
+In order to complete this workshop you’ll need an AWS Account, and an AWS IAM user in that account with at least IAMFullAccess permission, and the permissions included in the [link](https://github.com/gcr-solutions/recommender-system-dev-workshop-code/blob/main/scripts/role/gcr-rs-user-role.json). If you don’t have, create one now by clicking [here](https://aws.amazon.com/getting-started/)
 
 **Cost**: Some, but NOT all, of the resources you will launch as part of this workshop are eligible for the AWS free tier if your account is less than 12 months old. See the [AWS Free Tier page](https://aws.amazon.com/free/) for more details. To avoid charges for endpoints and other resources you might not need after you’ve finished a workshop, please refer to the [Cleanup Module](../../cleanup/)
 
