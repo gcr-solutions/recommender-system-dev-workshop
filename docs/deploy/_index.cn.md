@@ -26,9 +26,7 @@ weight: 30
 
 - admin
    
-   `/event/start_train` - 触发离线训练任务
-  
-   `/event/batch_update` - 触发离线批量更新任务，为所有用户重新生成推荐项目列表 
+   `/event/start_train` - 触发离线训练任务和批量更新任务
 
 
 API的swagger文档如下所示： 
