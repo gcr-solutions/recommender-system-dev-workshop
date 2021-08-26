@@ -1,5 +1,5 @@
 ---
-title: Recommender System Solution workshop 
+title: Recommender System Solution Workshop 
 chapter: true
 ---
 

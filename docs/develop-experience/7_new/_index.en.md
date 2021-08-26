@@ -10,7 +10,7 @@ The recommender system does not only have new action data collected. In real sce
 
 Add new items to recommender system
 ```shell
-cd /home/ec2-user/environment/recommender-system-solution/sample-data
+cd /home/ec2-user/environment/recommender-system-dev-workshop-code/sample-data
 
 ./new_item_to_s3.sh
 

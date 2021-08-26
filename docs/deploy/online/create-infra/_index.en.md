@@ -7,36 +7,46 @@ In this step, you will create Recommender System Online part infrastructure
 
 1. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
 
-```sh
-cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-```
+   ```sh
+   cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
+   ```
 
-2. Run the command below to create infrastructure, including:
-- eks cluster
-- istio
-- efs
-- elastic cache(redis)
+2. open **eks/nodes-config.yaml** file, and replace the **metadata.region** with your current region. The default value is ap-northeast-1 (Tokyo). **Attention**: If you are using the us-east-1 (N.Virginia) region, you need to add the following statement to the file:
 
-```sh
-./setup-rs-system.sh infra
-```
+    `availabilityZones: ['us-east-1a', 'us-east-1b', 'us-east-1c', 'us-east-1d', 'us-east-1f']`
 
-{{% notice info %}}
-This will take about 20 minutes to provision
-{{% /notice %}}
+   ![change nodes config](/images/change-nodes-config.png)
 
-3. Verify the infrastructre already created successfully:
+   Save the file.
 
-Check EFS created successfully, the console output should like below:
+3. Run the command below to create infrastructure, including:
+   - eks cluster
+   - istio
+   - efs
+   - elastic cache(redis)
 
-![Verify EKS nodes](/images/check-efs.png)
+   ```sh
+   ./setup-rs-system.sh infra
+   ```
 
-Check elastic cache(redis) created successfully, the console output should like below:
+   {{% notice info %}}
+   This will take about 30 minutes to provision
+   {{% /notice %}}
 
-![Verify EKS nodes](/images/check-redis.png)
+4. Verify the infrastructre already created successfully:
 
-Verify eks nodes created successfully, there should be two nodes and status should be **Ready**
-```sh
-kubectl get node
-```
-![Verify EKS nodes](/images/check-eks-nodes.png)
+   Check EFS created successfully, the console output should like below:
+
+   ![Verify EKS nodes](/images/check-efs.png)
+
+   Check elastic cache(redis) created successfully, the console output should like below:
+
+   ![Verify EKS nodes](/images/check-redis.png)
+
+   Verify eks nodes created successfully, there should be two nodes and status should be **Ready**
+
+   ```sh
+   kubectl get node
+   ```
+   
+   ![Verify EKS nodes](/images/check-eks-nodes.png)

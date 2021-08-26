@@ -1,1 +1,1 @@
-# recommender-system-solution
+# recommender-system-dev-workshop-code
