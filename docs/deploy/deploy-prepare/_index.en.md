@@ -16,6 +16,7 @@ In this section, you'll need to fork a github repo from [recommender-system-dev-
 3. Clone repo to your cloud9 workspace, please replace <your github username> with your Github username.
 
     ```sh
+    mkdir environment
     cd /home/ec2-user/environment
     git clone git@github.com:<your github username>/recommender-system-dev-workshop-code.git
     cd recommender-system-dev-workshop-code/
