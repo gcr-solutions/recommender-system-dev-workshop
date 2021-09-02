@@ -1,5 +1,5 @@
 ---
-title: 在 Cloud9 中设置 GitHub 账户
+title: 在 EC2 中设置 GitHub 账户
 weight: 6
 ---
 

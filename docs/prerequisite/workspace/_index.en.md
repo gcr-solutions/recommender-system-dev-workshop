@@ -5,5 +5,6 @@ weight: 20
 
 This section includes following steps:
 
-- [AWS EC2](./ec2/readme)
+- [Create AWS EC2](./ec2/readme)
 - [Create an SSH key](./create-ssh-key/readme)
+- [Setup Github ](./setup-github-config/readme)

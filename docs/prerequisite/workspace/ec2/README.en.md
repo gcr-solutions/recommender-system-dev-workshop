@@ -1,5 +1,5 @@
 ---
-title: AWS EC2
+title: Create AWS EC2
 weight: 1
 ---
 
