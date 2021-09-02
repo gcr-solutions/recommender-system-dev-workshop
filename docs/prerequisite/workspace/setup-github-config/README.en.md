@@ -1,5 +1,5 @@
 ---
-title: Setup GitHub Account In Cloud9 Workspace
+title: Setup GitHub Account in your EC2
 weight: 6
 ---
 
@@ -9,7 +9,7 @@ weight: 6
 
     ```git config --global user.email "your_email@example.com" ```
 
-2. Set up ssh on your cloud9 workspace.
+2. Set up ssh.
 
     Enter the following command to check if you have files `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`.
     
@@ -32,7 +32,7 @@ weight: 6
 
     ![Github SSH New](/images/github-ssh-new.png)
 
-    - Add a title (like “My Cloud9”) and paste the public key into the key text box.
+    - Add a title (like “RS Workshop”) and paste the public key into the key text box.
 
     ![Paste Github SSH key](/images/paste-github-ssh-key.png)
 

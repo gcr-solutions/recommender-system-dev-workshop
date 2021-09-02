@@ -1,5 +1,5 @@
 ---
-title: Update IAM Settings For Your Workspace
+title: Update Settings For EC2
 weight: 4
 ---
 

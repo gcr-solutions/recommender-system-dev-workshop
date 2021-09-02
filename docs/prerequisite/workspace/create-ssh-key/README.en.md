@@ -3,7 +3,7 @@ title: Create An SSH Key
 weight: 5
 ---
 
-Please run this command to generate SSH Key in Cloud9. This key will be used on the worker node instances to allow ssh access if necessary.
+Please run this command to generate SSH Key in EC2. This key will be used on the worker node instances to allow ssh access if necessary.
 
 ```sh
 ssh-keygen
