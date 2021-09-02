@@ -1,5 +1,5 @@
 ---
-title: Deploy The Offline Logic
+title: Deploy Offline
 weight: 3
 ---
 
