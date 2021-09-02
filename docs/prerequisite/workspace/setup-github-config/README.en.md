@@ -1,7 +1,9 @@
 ---
-title: Setup GitHub Account in your EC2
+title: Setup GitHub Account
 weight: 6
 ---
+
+## Setup GitHub Account in EC2
 
 1. Set up git with your username and email through following commands, please replace `Your name here` and `your_email@example.com` with your Github account.
 

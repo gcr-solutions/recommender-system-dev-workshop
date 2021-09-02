@@ -1,7 +1,10 @@
 ---
-title: 在 EC2 中设置 GitHub 账户
+title: 设置 GitHub 账户
 weight: 6
 ---
+
+## 在 EC2 中设置 GitHub 账户
+
 
 1. 输入以下命令来配置git，请将`姓名`和`电子邮箱`替换为您的Github帐户信息。
 
