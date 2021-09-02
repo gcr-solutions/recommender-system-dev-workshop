@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设置工作空间 on Recommender System Solution</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/</link><description>Recent content in 设置工作空间 on Recommender System Solution</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/index.xml" rel="self" type="application/rss+xml"/><item><title>创建 SSH 密钥</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</guid><description>运行以下命令在 EC2 中生成 SSH 密钥，此密钥将允许以 ssh 方式访问工作节点实例。
 ssh-keygen 按回车 3次以采用默认选择
 将公钥上传到您的 EC2 实例：
-aws ec2 import-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; --public-key-material file://~/.ssh/id_rsa.pub</description></item><item><title>在 EC2 中设置 GitHub 账户</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/setup-github-config/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/setup-github-config/readme/</guid><description>输入以下命令来配置git，请将姓名和电子邮箱替换为您的Github帐户信息。
+aws ec2 import-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; --public-key-material file://~/.ssh/id_rsa.pub</description></item><item><title>设置 GitHub 账户</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/setup-github-config/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/setup-github-config/readme/</guid><description>在 EC2 中设置 GitHub 账户 输入以下命令来配置git，请将姓名和电子邮箱替换为您的Github帐户信息。
 git config --global user.name &amp;quot;姓名&amp;quot;
 git config --global user.email &amp;quot;电子邮箱&amp;quot;
 在 cloud9 上设置 ssh。
@@ -9,5 +9,4 @@ git config --global user.email &amp;quot;电子邮箱&amp;quot;
 ls ~/.ssh 如果没有，请按照 创建 SSH 密钥 来创建公钥与私钥。
 输入以下命令并复制命令行的输出(公钥)：
 cat ~/.ssh/id_rsa.pub 将 ssh 公钥粘贴到您的 GitHub 帐户中。
-打开您的 GitHub 账户 中的 Account Settings 单击左侧栏中的 SSH and GPG keys 。 点击右上角的New SSH key。 输入密钥名（如“My Cloud9”）并将公钥粘贴到文本框中。 通过以下命令测试您的配置：
-ssh -T git@github.com 输入 yes 并按 回车.</description></item></channel></rss>
+打开您的 GitHub 账户 中的 Account Settings 单击左侧栏中的 SSH and GPG keys 。 点击右上角的New SSH key。 输入密钥名（如“My Cloud9”）并将公钥粘贴到文本框中。 通过以下命令测试您的配置：</description></item></channel></rss>
