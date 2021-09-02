@@ -3,18 +3,6 @@ title: Update IAM Settings For Your Workspace
 weight: 4
 ---
 
-{{% notice info %}}
-Cloud9 normally manages IAM credentials dynamically. This isn't currently compatible with
-the EKS IAM authentication, so we will disable it and rely on the IAM role instead.
-{{% /notice %}}
-
-- Go to your Cloud9 workspace and click the gear icon (in top right corner)
-- Select **AWS SETTINGS**
-- Turn off **AWS managed temporary credentials**
-- Close the Preferences tab
-
-    ![Cloud9 Manage EC2 Instance](/images/cloud9-update-role-setting.png)
-
 - Install jq
 
     ```sh
