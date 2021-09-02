@@ -58,7 +58,7 @@ HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
 ```
-8. Check you AWS region
+8. Check your AWS region
 ```shell
 aws configure get default.region
 ```
