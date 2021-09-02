@@ -14,7 +14,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 
 ```
 
-这将在您的 **Cloud9** 环境中安装 `eksctl`。 要测试以确保命令安装正确，请执行以下命令： 
+这将在您的 **EC2** 环境中安装 `eksctl`。 要测试以确保命令安装正确，请执行以下命令： 
 
 ```
 eksctl get cluster

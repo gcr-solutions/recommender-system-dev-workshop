@@ -14,7 +14,7 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 
 ```
 
-This will install `kubectl` in your **Cloud9** environment. To test to make sure the command is installed properly, execute the command:
+This will install `kubectl` in your **EC2** environment. To test to make sure the command is installed properly, execute the command:
 
 ```
 kubectl version --client
