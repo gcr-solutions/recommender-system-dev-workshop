@@ -54,8 +54,8 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 ```shell
 
 cd ~/Downloads
-
-ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@ec2-3-36-103-112.ap-northeast-2.compute.amazonaws.com
+HOST_IP=<EC2_IP_Address>
+ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
 ```
 
