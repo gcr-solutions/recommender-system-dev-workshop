@@ -5,9 +5,4 @@ CloudFormation template:https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3
 Stack name: gcr-rs-dev-workshop-ec2 KeyPairParam: gcr-rs-dev-workshop-ec2-key</description></item><item><title>Create An SSH Key</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/create-ssh-key/readme/</guid><description>Please run this command to generate SSH Key in EC2. This key will be used on the worker node instances to allow ssh access if necessary.
 ssh-keygen Press enter 3 times to take the default choices
 Upload the public key to your EC2 region:
-aws ec2 import-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; --public-key-material file://~/.ssh/id_rsa.pub</description></item><item><title>Setup GitHub Account</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/setup-github-config/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/prerequisite/workspace/setup-github-config/readme/</guid><description>Setup GitHub Account in EC2 Set up git with your username and email through following commands, please replace Your name here and your_email@example.com with your Github account.
-git config --global user.name &amp;quot;Your name here&amp;quot;
-git config --global user.email &amp;quot;your_email@example.com&amp;quot;
-Set up ssh.
-Enter the following command to check if you have files ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub.
-ls ~/.ssh If you do not have, please follow Create an SSH key to create such public/private keys.</description></item></channel></rss>
+aws ec2 import-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; --public-key-material file://~/.ssh/id_rsa.pub</description></item></channel></rss>
