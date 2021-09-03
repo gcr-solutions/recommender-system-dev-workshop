@@ -1,6 +1,6 @@
 ---
 title: Deploy Offline
-weight: 3
+weight: 1
 ---
 
 1. Setup offline
