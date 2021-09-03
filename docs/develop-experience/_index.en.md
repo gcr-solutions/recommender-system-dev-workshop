@@ -1,5 +1,5 @@
 ---
-title: How Does The Recommender System Work
+title: How Does It Work
 weight: 40
 ---
 
