@@ -32,8 +32,8 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
    ![EC2 CloudFormation ](/images/ec2-cf-s3url.png)
 
-2. Stack name: `gcr-rs-dev-workshop-ec2`
-   KeyPairParam: `gcr-rs-dev-workshop-ec2-key`
+2. **Stack name**: `gcr-rs-dev-workshop-ec2`
+   **KeyPairParam**: `gcr-rs-dev-workshop-ec2-key`
    
    ![EC2 CloudFormation Stack ](/images/ec2-cf-stackname.png)
 
@@ -44,13 +44,13 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 4. Wait CloudFormation deployment complete
    
    {{% notice info %}}
-   This will take about 2 minutes to provision
+   This will take about 2 - 3 minutes to provision
    {{% /notice %}}
 
 5. Get CloudFormation output
    ![EC2 CloudFormation Output ](/images/ec2-cf-output.png)
 
-6. Open an SSH client, connect to your instance:
+6. Open an SSH client, connect to your instance, replace <EC2_IP_Address> with the EC2 IP
 ```shell
 
 cd ~/Downloads
