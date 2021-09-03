@@ -17,6 +17,9 @@ weight: 1
 This will take about 10 minutes to provision
 {{% /notice %}}
 
+   ![offline codebuild](/images/offline-codebuild.png)
+
+
 
 
 
