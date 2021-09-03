@@ -1,5 +1,5 @@
 ---
-title: 部署 GCR 推荐系统
+title: 部署
 weight: 30
 ---
 

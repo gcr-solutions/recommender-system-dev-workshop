@@ -1,5 +1,5 @@
 ---
-title: Deploy GCR Recommender System 
+title: Deployment 
 weight: 30
 ---
 
