@@ -7,4 +7,3 @@ weight: 20
 
 - [创建 EC2](./ec2/readme)
 - [创建 SSH key](./create-ssh-key/readme)
-- [设置 Github ](./setup-github-config/readme)
