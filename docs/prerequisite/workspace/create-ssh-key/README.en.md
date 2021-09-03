@@ -1,5 +1,5 @@
 ---
-title: Create An SSH Key
+title: Create SSH Key
 weight: 5
 ---
 
