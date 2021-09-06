@@ -28,7 +28,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 1. Go to [CloudFormation](https://ap-northeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/create/template)
 
-   CloudFormation template:`https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-raw-ec2.yaml`
+   CloudFormation template:`s3://aws-gcr-rs-sol-workshop-ap-northeast-1-common/rs-dev-workshop-code/github/rs-raw-ec2.yaml`
 
    ![EC2 CloudFormation ](/images/ec2-cf-s3url.png)
 
