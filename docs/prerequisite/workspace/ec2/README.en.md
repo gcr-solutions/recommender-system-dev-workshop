@@ -7,14 +7,14 @@ weight: 1
 
 ### Create key pair
 
-1. Go to [Key pairs](https://ap-northeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#KeyPairs:)
+1. Go to [Key pairs (ap-northeast-2 region)](https://ap-northeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#KeyPairs:) [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#KeyPairs:)
 2. Create a key pair: `gcr-rs-dev-workshop-ec2-key` 
 
   ![Key pairs](/images/ec2-key-pair.png)
 
   ![Create key pair](/images/ec2-key-pair-name.png)
    
-3. Save the key pair to you local disk, eg: `~/Downloads`
+3. Suppose you are using Mac, save the key pair to you local disk, eg: `~/Downloads`
 
 4. Open an SSH client, run this command, to ensure your key is not publicly viewable
 ```sh
