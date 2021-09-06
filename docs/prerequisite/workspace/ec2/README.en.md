@@ -51,6 +51,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
    ![EC2 CloudFormation Output ](/images/ec2-cf-output.png)
 
 6. Open an SSH client, connect to your instance, replace <EC2_IP_Address> with the EC2 IP
+
 ```shell
 
 cd ~/Downloads
@@ -58,6 +59,11 @@ HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
 ```
+
+   ![Connect-to-ec2](/images/connect-to-ec2.png)
+
+   Type yes when showing the above messages.
+
 8. Check your AWS region in EC2
 ```shell
 aws configure get default.region
