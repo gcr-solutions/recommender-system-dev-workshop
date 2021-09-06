@@ -9,7 +9,7 @@ Amazon Personalize is a fully managed personalized recommendation service that i
 |--- |--- | --- | --- |
 |Complete Substitution|aws-user-personalization |If you only want to use the Amazon Personalize Service to achieve personalized recommendations for users, then you can adopt this plan. The online part of this plan provides actual use cases of Amazon Personalize Service, and the offline part provides automated processes of three functions: Model Update, New Item Addition, and New User Addition. This plan can greatly speed up your time to get started and deploy the Amazon Personalize Service.|ps-complete|
 |Rank Model Substitution|aws-personalized-ranking |The existing ranking model of the GCR Recommendation System is the DKN model based on the knowledge graph. If you want to use the ranking model provided by Amazon Personalize, you can adopt this plan. The online part of this plan replaces the DKN model of the ranking module with the aws-personalized-ranking model. On the basis of the original process, the offline part adds the model training and data set import process of the Amazon Personalize service, and replaces the model with the aws-personalized-ranking model in the rank batch.|ps-rank|
-|One Way Recall Logic|aws-sims |The existing recall model of the GCR Recommendation System contains four-way recall logic. If you want to use the item similarity model provided by Amazon Personalize as the fifth recall logic, you can adopt this plan. In the online part of this plan, one more recall logic provided by Amazon Personalize is added to the recall module. On the basis of the original process, the offline part adds the model training and data set import process of the Amazon Personalize service, and adds the recall logic implemented by aws-sims to the recall batch. |ps-rank|
+|One Way Recall Logic|aws-sims |The existing recall model of the GCR Recommendation System contains four-way recall logic. If you want to use the item similarity model provided by Amazon Personalize as the fifth recall logic, you can adopt this plan. In the online part of this plan, one more recall logic provided by Amazon Personalize is added to the recall module. On the basis of the original process, the offline part adds the model training and data set import process of the Amazon Personalize service, and adds the recall logic implemented by aws-sims to the recall batch. |ps-sims|
 
 If you want to switch to the **Complete Substitution**, execute the following command:
 ```shell
@@ -18,6 +18,8 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 After execution, open the Argo CD website and click **REFRESH**, you will see that containers are synchronizing and updating. This process takes about 1 minute.
+
+![Argo CD Sync](/images/argocd-sync-method.png)
 
 After the synchronization is complete, open the Demo Website. At this time, the Recommendation System has been changed to retrieve the results entirely from the Amazon Personalize Service. Click the **Recommendation** button, and open the logs of the Retrieve Pod on the Argo CD website. You can see the newest recommendation list contains **ps-complete** description, which means that the Amazon Personalize Service provides the recommendation list.
 
