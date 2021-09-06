@@ -68,4 +68,3 @@ ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 ```shell
 aws configure get default.region
 ```
-
