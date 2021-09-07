@@ -79,7 +79,7 @@ echo $REGION
 
 {{% notice info %}}
    
-if the information is empty, please check run `tail /var/log/user-data.log` to check the log, maker sure init script finished successfully,
+if the information is empty, please run `tail /var/log/user-data.log` to check the init log, maker sure init script finished successfully,
 then **re-login** the EC2.
 
 {{% /notice %}}
