@@ -65,7 +65,7 @@ ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
    ![Connect-to-ec2](/images/connect-to-ec2.png)
 
-8. Check your AWS region in EC2
+8. Check your EC2 environment
 ```shell
 echo "eksctl version"
 eksctl version
