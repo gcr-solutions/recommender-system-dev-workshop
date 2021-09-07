@@ -53,13 +53,27 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 6. Open an SSH client, connect to your instance, replace <EC2_IP_Address> with the EC2 IP
 ```shell
 
-cd ~/Downloads
+cd ~/<Your_key_dir>
+
 HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
 ```
-8. Check your AWS region in EC2
+7. Check your EC2 environment
 ```shell
+echo "eksctl version"
+eksctl version
+echo "kubectl version --client"
+kubectl version --client
+
 aws configure get default.region
+echo $REGION
 ```
+
+{{% notice info %}}
+   
+if the information is empty, please check run `tail /var/log/user-data.log` to check the log, maker sure init script finished successfully,
+then **re-login** the EC2.
+
+{{% /notice %}}
 

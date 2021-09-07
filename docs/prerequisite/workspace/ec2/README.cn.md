@@ -58,9 +58,21 @@ cd ~/Downloads
 HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
+
 ```
-8. 检查 AWS 区域
+7. 检查环境
 ```shell
+echo "eksctl version"
+eksctl version
+echo "kubectl version --client"
+kubectl version --client
+
 aws configure get default.region
+echo $REGION
 ```
 
+{{% notice info %}}
+   
+假如上面的信息是空， 请运行 `tail /var/log/user-data.log` 检查 log，确保初始化脚本允许完成，然后**重新登录** EC2
+
+{{% /notice %}}

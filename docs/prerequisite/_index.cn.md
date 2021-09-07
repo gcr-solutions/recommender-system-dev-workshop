@@ -7,4 +7,3 @@ weight: 20
 
 - [AWS环境检查](./environment/)
 - [设置工作空间](./workspace/)
-- [安装所需工具](./tools/)
