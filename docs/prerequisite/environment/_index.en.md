@@ -27,4 +27,5 @@ To test certain workshop functions, your SageMaker resource limit need to meet t
 |--- | --- | --- |
 |SageMaker Training |training-job/ml.p2.xlarge |2|
 |SageMaker Processing |processing-job/ml.m5.large |2|
+|VPC| - | 2 |
 
