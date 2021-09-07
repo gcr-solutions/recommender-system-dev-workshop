@@ -14,6 +14,7 @@ This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**.
 | --- |
 | cn-north-1|
 | cn-northwest-1|
+| ap-southeast-1|
 | ap-northeast-1|
 | ap-northeast-2|
 
