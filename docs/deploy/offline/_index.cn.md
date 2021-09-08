@@ -5,7 +5,7 @@ weight: 1
 
 1. 运行以下命令部署离线部分
 
-    ``` 
+    ```sh 
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
     ./setup-rs-system.sh deploy-offline
     ```

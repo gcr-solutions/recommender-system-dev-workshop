@@ -59,7 +59,7 @@ weight: 1
 7. Open an SSH client, connect to your instance, replace <EC2_IP_Address> with the EC2 IP
 
    ```shell
-   cd <Your_key_dir> # eg. cd ~/Downloads
+   cd ~/Downloads
    HOST_IP=<EC2_IP_Address>
    ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
    ```

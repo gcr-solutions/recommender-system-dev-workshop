@@ -28,7 +28,11 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
 ![GCR RS DEV](/images/gcr-rs-dev.png)
 
-4. In the [Cloudformation Console](https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/), select gcr-rs-dev-workshop-ec2 stack and click Delete button
+4. In the [Cloudformation Console](https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/), delete below stacks:
+
+    - `gcr-rs-dev-workshop-ec2` 
+    - `rs-dev-workshop-codebuild-role-stack`
+
 
 5. Go to [EC2 Key Pairs](https://console.aws.amazon.com/ec2/v2/home#KeyPairs:search=gcr-rs-dev-workshop-key), select `gcr-rs-dev-workshop-key`, and delete it.
 
