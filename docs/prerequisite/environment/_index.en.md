@@ -10,13 +10,14 @@ In order to complete this workshop you’ll need an AWS Account, and an AWS IAM 
 
 ## AWS Region
 This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**. However, more regions have been test.
-| Support Region |
-| --- |
-| cn-north-1|
-| cn-northwest-1|
-| ap-southeast-1|
-| ap-northeast-1|
-| ap-northeast-2|
+| Region | Status |
+| --- | --- |
+| cn-north-1| Testing | 
+| cn-northwest-1| Testing |
+| ap-southeast-1| Pass |
+| ap-northeast-1| Under Test |
+| ap-northeast-2| Under Test |
+| ap-northeast-3| Testing |
 
 ## Browser
 We recommend you use the latest version of **Chrome** to complete this workshop.
