@@ -7,7 +7,7 @@ weight: 1
 
     ``` 
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./setup-rs-system.sh deploy-offline
+    ./setup-rs-system.sh deploy-offline
     ```
 
 2. Go to [AWS code build console](https://console.aws.amazon.com/codesuite/codebuild/projects)

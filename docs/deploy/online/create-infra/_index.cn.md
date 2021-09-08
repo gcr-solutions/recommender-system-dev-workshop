@@ -13,7 +13,7 @@ weight: 3
    
    ```sh
    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-   nohup ./setup-rs-system.sh infra
+   ./setup-rs-system.sh infra
    ```
 
    {{% notice info %}} 
