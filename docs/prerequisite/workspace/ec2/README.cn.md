@@ -55,7 +55,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 4. 等待部署完成
    
    {{% notice info %}}
-   等待 2 - 3 分钟左右
+   等待 5 - 6 分钟左右
    {{% /notice %}}
 
 5. 检查 CloudFormation 输出

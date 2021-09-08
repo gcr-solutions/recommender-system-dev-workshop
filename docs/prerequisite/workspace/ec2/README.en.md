@@ -53,7 +53,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 5. Wait CloudFormation deployment complete
    
    {{% notice info %}}
-   This will take about 2 - 3 minutes to provision
+   This will take about 5 - 6 minutes to provision
    {{% /notice %}}
 
 6. Get CloudFormation output
