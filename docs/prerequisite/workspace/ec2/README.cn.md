@@ -28,7 +28,17 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 1. 转到 [CloudFormation](https://ap-northeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/create/template)
 
-   CloudFormation 模版:`https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml`
+   CloudFormation 模版:
+
+   - AWS 全球区域:
+```   
+   https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
+```
+
+   - AWS 中国区域:
+``` 
+https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1/cn-rs-raw-ec2.yaml
+```
 
    ![EC2 CloudFormation ](/images/ec2-cf-s3url.png)
 
