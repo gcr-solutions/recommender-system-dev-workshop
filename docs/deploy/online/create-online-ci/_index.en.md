@@ -19,5 +19,5 @@ This will take about 10 minutes to provision
 2. Go to [AWS Codebuild Console](https://console.aws.amazon.com/codesuite/codebuild/home) to check all services project have been created successfully.
     ![Codebuild Created](/images/codebuild-created.png)
 
-3. After a few minutes, **gcr-rs-dev-workshop-recall-build** and **gcr-rs-dev-workshop-filter-build** should run successfully like below(For saving time, we just trigger recall and filter services build). **If any project fails, please run it again.**
+3. **If any project fails, please run it again.**
     ![Codebuild Succeed](/images/codebuild-successfully.png)

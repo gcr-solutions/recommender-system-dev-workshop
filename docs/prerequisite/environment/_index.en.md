@@ -17,7 +17,7 @@ This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**.
 | ap-southeast-1| Pass |
 | ap-northeast-1| To Be Test |
 | ap-northeast-2| Under Test |
-| ap-northeast-3| To Be Test (fail at cloudformation) |
+| ap-northeast-3| Not Support |
 
 ## Browser
 We recommend you use the latest version of **Chrome** to complete this workshop.
