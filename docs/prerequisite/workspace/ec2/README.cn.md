@@ -31,14 +31,14 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
    CloudFormation 模版:
 
    - AWS 全球区域:
-```   
-   https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
-```
-
+   ```   
+    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
+   ```
    - AWS 中国区域:
-``` 
-https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1/cn-rs-raw-ec2.yaml
-```
+   ``` 
+    https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1/cn-rs-raw-ec2.yaml
+   ```
+   
 
    ![EC2 CloudFormation ](/images/ec2-cf-s3url.png)
 
