@@ -5,15 +5,10 @@ weight: 6
 
 In this step, you will create Argo CD application to deploy all online services into EKS cluster
 
-1. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
+1. Run below command to create and deploy application:
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ```
-
-2. Run below command to create and deploy online part:=
-
-    ```sh
     ./setup-rs-system.sh application
     ```
 

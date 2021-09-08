@@ -18,7 +18,8 @@ weight: 10
 
 为了测试此动手实践的某些功能，您的 AWS SageMaker 资源限制需要满足以下最低要求。 单击 [此处](https://sagemaker-tools.corp.amazon.com/limits) 检查并增加 AWS SageMaker 资源限制。
 
-|Region |Resource type |Resource | 	Required limit |
-|--- |--- | --- | --- |
-|ap-northeast-1|SageMaker Training |training-job/ml.p2.xlarge |2|
-|ap-northeast-1|SageMaker Processing |processing-job/ml.m5.large |2|
+|Resource type |Resource | 	Required limit |
+|--- | --- | --- |
+|SageMaker Training |training-job/ml.p2.xlarge |2|
+|SageMaker Processing |processing-job/ml.m5.large |2|
+|VPC| - | 2 |

@@ -5,18 +5,13 @@ weight: 4
 
 在此步骤中，您将根据先前创建的基础设施来更新在线服务配置。
 
-1. 跳转到/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
-
-    ```sh
-    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ```
-
-2. 运行以下命令更新本地配置，包括：
+1. 运行以下命令更新本地配置，包括：
     - Elasticache(Redis) endpoint
     - AccountId
     - Region
 
     ```sh
+    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
     ./setup-rs-system.sh config
     ```
 

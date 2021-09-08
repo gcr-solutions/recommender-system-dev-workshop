@@ -5,15 +5,10 @@ weight: 5
 
 在此步骤中，您将在 EKS 集群中设置 Argo CD 服务器
 
-1. 跳转到/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
-
-    ```sh
-    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ```
-
-2. 运行以下命令在 eks 集群中设置 ArgoCd 服务器
+1. 运行以下命令在 eks 集群中设置 ArgoCd 服务器
 
    ```sh
+   cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
    ./setup-rs-system.sh argo-server
    ```
    
