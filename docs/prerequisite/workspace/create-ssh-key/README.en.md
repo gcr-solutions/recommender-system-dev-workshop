@@ -16,5 +16,6 @@ Press `enter` 3 times to take the default choices
 Upload the public key to your EC2 region:
 
 ```sh
+# aws ec2 delete-key-pair --key-name "gcr-rs-dev-workshop-key"
 aws ec2 import-key-pair --key-name "gcr-rs-dev-workshop-key" --public-key-material file://~/.ssh/id_rsa.pub
 ```

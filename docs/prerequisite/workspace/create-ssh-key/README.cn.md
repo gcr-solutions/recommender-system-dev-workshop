@@ -16,5 +16,6 @@ ssh-keygen
 将公钥上传到您的 EC2 实例： 
 
 ```sh
+# aws ec2 delete-key-pair --key-name "gcr-rs-dev-workshop-key"
 aws ec2 import-key-pair --key-name "gcr-rs-dev-workshop-key" --public-key-material file://~/.ssh/id_rsa.pub
 ```
