@@ -5,7 +5,7 @@ weight: 1
 
 1. Setup offline
 
-    ``` 
+    ```sh 
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
     ./setup-rs-system.sh deploy-offline
     ```
