@@ -16,8 +16,6 @@ In this step, you'll create AWS CodeBuild project to build services of Recommend
 This will take about 10 minutes to provision
 {{% /notice %}}
 
-2. Go to [AWS Codebuild Console](https://console.aws.amazon.com/codesuite/codebuild/home) to check all services project have been created successfully.
-    ![Codebuild Created](/images/codebuild-created.png)
-
-3. **If any project fails, please run it again.**
+2. Go to [AWS Codebuild Console](https://console.aws.amazon.com/codesuite/codebuild/home) to check all services project have been created successfully. **If any project fails, please run it again.**
+   
     ![Codebuild Succeed](/images/codebuild-successfully.png)
