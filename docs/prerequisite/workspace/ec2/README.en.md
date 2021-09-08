@@ -63,7 +63,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 ```shell
 
-cd <Your_key_dir> # eg. cd ~/Downloads
+cd ~/Downloads
 
 HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
@@ -76,13 +76,9 @@ ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 
 8. Check your EC2 environment
 ```shell
-echo "eksctl version"
 eksctl version
-echo "kubectl version --client"
 kubectl version --client
-
 aws configure get default.region
-
 echo $REGION
 ```
 

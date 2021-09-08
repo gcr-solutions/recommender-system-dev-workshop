@@ -73,11 +73,8 @@ ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
 ```
 7. 检查环境
 ```shell
-echo "eksctl version"
 eksctl version
-echo "kubectl version --client"
 kubectl version --client
-
 aws configure get default.region
 echo $REGION
 ```
