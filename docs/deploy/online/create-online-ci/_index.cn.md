@@ -16,10 +16,6 @@ weight: 1
 这将需要大约 10 分钟进行配置
 {{% /notice %}}
 
-2. 进入[AWS Codebuild 控制台](https://console.aws.amazon.com/codesuite/codebuild/home) 查看并确保所有的项目已经创建成功。
-   
-    ![Codebuild Created](/images/codebuild-created.png)
-
-3. 几分钟后，**gcr-rs-dev-workshop-recall-build** 和 **gcr-rs-dev-workshop-filter-build** 应该像下面这样成功运行（为了节省时间，我们刚刚触发了召回和过滤服务的构建）。 **如果任何项目失败，请重新运行。**
-   
+2. 进入[AWS Codebuild 控制台](https://console.aws.amazon.com/codesuite/codebuild/home) 查看并确保所有的项目已经创建成功。**注意**：如果有项目构建失败，请重新构建该项目。
+    
     ![Codebuild Succeed](/images/codebuild-successfully.png)
