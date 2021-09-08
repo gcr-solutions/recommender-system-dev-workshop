@@ -12,12 +12,12 @@ In order to complete this workshop you’ll need an AWS Account, and an AWS IAM 
 This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**. However, more regions have been test.
 | Region | Status |
 | --- | --- |
-| cn-north-1| Testing | 
-| cn-northwest-1| Testing |
+| cn-north-1| To Be Test | 
+| cn-northwest-1| To Be Test |
 | ap-southeast-1| Pass |
-| ap-northeast-1| Under Test |
+| ap-northeast-1| To Be Test |
 | ap-northeast-2| Under Test |
-| ap-northeast-3| Testing |
+| ap-northeast-3| To Be Test (fail at cloudformation) |
 
 ## Browser
 We recommend you use the latest version of **Chrome** to complete this workshop.
