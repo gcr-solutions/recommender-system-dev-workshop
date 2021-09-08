@@ -7,7 +7,7 @@ weight: 1
 
     ``` 
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./setup-rs-system.sh deploy-offline
+    nohup ./setup-rs-system.sh deploy-offline
     ```
 
 2. 进入 [AWS codebuild 控制台](https://console.aws.amazon.com/codesuite/codebuild/projects) ，检查你的代码构建项目，搜索`rs-dev-workshop-offline-`，确保所有的项目构建成功。

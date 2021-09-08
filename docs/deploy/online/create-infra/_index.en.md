@@ -13,7 +13,7 @@ In this step, you will create Recommender System Online part infrastructure
 
    ```sh
    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-   ./setup-rs-system.sh infra
+   nohup ./setup-rs-system.sh infra
    ```
 
    {{% notice info %}}
