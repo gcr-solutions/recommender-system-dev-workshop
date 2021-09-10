@@ -33,7 +33,7 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
    - AWS 全球区域:
    ```   
-    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
+    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/2021-09-08/rs-raw-ec2.yaml
    ```
    - AWS 中国区域:
    ``` 
