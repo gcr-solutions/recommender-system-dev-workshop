@@ -12,11 +12,11 @@ weight: 1
 
 2. 进入 [AWS codebuild 控制台](https://console.aws.amazon.com/codesuite/codebuild/projects) ，检查你的代码构建项目，搜索`rs-dev-workshop-offline-`，确保所有的项目构建成功。
 
+   {{% notice info %}}
+   这将需要大约 20 分钟的时间进行配置
+   {{% /notice %}}
 
-{{% notice info %}}
-这将需要大约 10 分钟的时间进行配置
-{{% /notice %}}
-
+   ![Offline CodeBuild Success](/images/offline-codebuild-success.png)
 
 
 

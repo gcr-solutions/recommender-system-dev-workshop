@@ -10,19 +10,16 @@ weight: 1
 1. Go to [Key pairs (ap-northeast-1 region)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#KeyPairs:) or [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#KeyPairs:)
 2. Create a key pair: `gcr-rs-dev-workshop-ec2-key` 
 
-  ![Key pairs](/images/ec2-key-pair.png)
-
   ![Create key pair](/images/ec2-key-pair-name.png)
    
 3. Suppose you are using Mac, save the key pair to you local disk, eg: `~/Downloads`
 
 4. Open an SSH client, run this command, to ensure your key is not publicly viewable
-```sh
-cd ~/Downloads
 
-chmod 400 gcr-rs-dev-workshop-ec2-key.pem
-
-```
+   ```sh
+   cd ~/Downloads
+   chmod 400 gcr-rs-dev-workshop-ec2-key.pem
+   ```
 
 ## Create new EC2 instance
 
@@ -61,31 +58,27 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 7. Open an SSH client, connect to your instance, replace <EC2_IP_Address> with the EC2 IP
 
-```shell
-
-cd ~/Downloads
-
-HOST_IP=<EC2_IP_Address>
-ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
-
-```
+   ```shell
+   cd ~/Downloads
+   HOST_IP=<EC2_IP_Address>
+   ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
+   ```
 
 7. Type yes when showing the messages below.
 
    ![Connect-to-ec2](/images/connect-to-ec2.png)
 
-8. Check your EC2 environment
-```shell
-eksctl version
-kubectl version --client
-aws configure get default.region
-echo $REGION
-```
+8. Check your EC2 environment and related tools
 
-{{% notice info %}}
-   
-if the information is empty, please run `tail /var/log/user-data.log` to check the init log, maker sure init script finished successfully,
-then **re-login** the EC2.
+   ```shell
+   eksctl version
+   kubectl version --client
+   aws configure get default.region
+   echo $REGION
+   ```
 
-{{% /notice %}}
+   {{% notice info %}}
+   If the output is empty or error, please run `tail /var/log/user-data.log` to check the init log, maker sure init script finished successfully,
+   then **re-login** the EC2.
+   {{% /notice %}}
 

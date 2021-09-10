@@ -5,7 +5,7 @@ weight: 60
 
 Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow these steps to make sure everything is cleaned up.
 
-1. In the Cloud9 IDE Console, run below command to delete online:
+1. In the terminal, run below command to delete online:
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
     ./clean-online.sh
@@ -40,7 +40,5 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
 ```
 cd ~/Downloads
-
 rm -f gcr-rs-dev-workshop-ec2-key.pem
-
 ```

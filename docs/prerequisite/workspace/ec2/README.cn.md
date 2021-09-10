@@ -58,20 +58,20 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
    等待 5 - 6 分钟左右
    {{% /notice %}}
 
-5. 检查 CloudFormation 输出
+5. 检查 CloudFormation 输出, 并复制 EC2 的 IP 地址
 
    ![EC2 CloudFormation Output ](/images/ec2-cf-output.png)
 
-6. 打开 SSH 客户端, 链接刚才创建的 EC2 实例, 替换 <EC2_IP_Address> 为实际的 IP 地址
-```shell
+6. 打开 SSH 客户端, 执行以下命令来连接 EC2 实例。**注意**：将 <EC2_IP_Address> 替换成复制的 IP地址。
 
+```shell
 cd ~/Downloads
 HOST_IP=<EC2_IP_Address>
 ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
-
-
 ```
-7. 检查环境
+
+7. 检查工具与环境变量
+
 ```shell
 eksctl version
 kubectl version --client

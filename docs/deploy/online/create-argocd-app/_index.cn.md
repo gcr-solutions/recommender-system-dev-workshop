@@ -5,15 +5,10 @@ weight: 6
 
 在本节中，您将在 EKS 集群中创建 Argo CD 应用程序并部署所有在线服务
 
-1. 进入/home/ec2-user/environment/recommender-system-dev-workshop-code/scripts目录
+1. 运行以下命令来创建和部署推荐系统应用：
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ```
-
-2. 运行以下命令来创建和部署在线部分：
-
-    ```sh
     ./setup-rs-system.sh application
     ```
 
@@ -42,7 +37,9 @@ weight: 6
 
     ![Demo UI](/images/demo-ui.png)
 
-恭喜你！ 推荐系统部署成功！！ 
+恭喜你！ 推荐系统部署成功！！ **注意**： 管理员控制面板默认设置为定时自动计算，若您想节约成本，请打开[cloudwatch 控制面板](https://console.aws.amazon.com/events/home#/rules), 选中并关闭 `rs-dev-workshop-News-DashboardScheduledRule`。
+
+![Dashboard Schedule Disable](/images/dashboard-schedule-disable.png)
 
 
 

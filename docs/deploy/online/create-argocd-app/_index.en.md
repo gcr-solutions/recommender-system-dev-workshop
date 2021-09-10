@@ -5,15 +5,10 @@ weight: 6
 
 In this step, you will create Argo CD application to deploy all online services into EKS cluster
 
-1. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
+1. Run below command to create and deploy application:
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ```
-
-2. Run below command to create and deploy online part:=
-
-    ```sh
     ./setup-rs-system.sh application
     ```
 
@@ -43,7 +38,7 @@ In this step, you will create Argo CD application to deploy all online services 
     ![Demo UI](/images/demo-ui.png)
 
 Congratulations!!! The recommender system has been deployed successfully!!
+**Attention**: The default setting of Dashboard scheduled to automatic calculation. If you want to save costs, please open [cloudwatch control panel](https://console.aws.amazon.com/events/home#/rules), select and disable `rs -dev-workshop-News-DashboardScheduledRule`.
 
-
-
+![Dashboard Schedule Disable](/images/dashboard-schedule-disable.png)
 
