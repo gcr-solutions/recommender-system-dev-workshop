@@ -7,7 +7,8 @@ weight: 1
 
     ```sh 
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./setup-rs-system.sh deploy-offline
+    nohop ./setup-rs-system.sh deploy-offline > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log 
     ```
 
 2. Go to [AWS code build console](https://console.aws.amazon.com/codesuite/codebuild/projects)

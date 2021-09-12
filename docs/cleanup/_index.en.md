@@ -8,7 +8,8 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 1. In the terminal, run below command to delete online:
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./clean-online.sh
+    nohup ./clean-online.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log
     ```
    
    {{% notice info %}}
@@ -19,7 +20,8 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./clean-offline.sh
+    nohup ./clean-offline.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log
     ```
    
 **Attention**: After you finish the above steps, the online and offline parts of the recommendation system have been cleaned. If you want to completely empty all resources, you need to perform the following steps: 

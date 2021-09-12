@@ -9,7 +9,8 @@ In this step, you will create Argo CD application to deploy all online services 
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./setup-rs-system.sh application
+    nohup ./setup-rs-system.sh application > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log 
     ```
 
     After about 1 minutes, the console will message as below:
@@ -24,7 +25,8 @@ In this step, you will create Argo CD application to deploy all online services 
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./load-seed-data.sh
+    nohup ./load-seed-data.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log 
     ```
 
 5. Get the GUI endpoint:
