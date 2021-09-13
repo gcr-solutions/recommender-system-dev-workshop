@@ -21,7 +21,10 @@ In this part, you'll change some code to add two features in online part, and th
     git push
     ```
 
-- Go to [codebuild project](https://console.aws.amazon.com/codesuite/codebuild/projects) to check **gcr-rs-dev-workshop-filter-build**, it should be triggered.
+- Go to [codebuild project](https://console.aws.amazon.com/codesuite/codebuild/projects) , and search `gcr-rs-dev-workshop-filter-build`. Build the project again.
+  
+  ![Build-Filter-Codebuild](/images/build-filter-codebuild.png)
+  
 - After **gcr-rs-dev-workshop-filter-build** succeeded, ArgoCD will deploy filter services in 3 minutes, please go to ArgoCD to check it.
 - Verify it.
 After clicking at three pieces of news, you will see the recommendation list in the first channel. The recommendation result consists of two parts. The first 

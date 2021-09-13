@@ -21,7 +21,10 @@ weight: 44
     git push
     ```
 
-- 打开 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects) 并检查 **gcr-rs-dev-workshop-filter-build**，它应该已经被触发。
+- 打开 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects), 搜索 `gcr-rs-dev-workshop-filter-build`，并重新构建该项目。
+    
+  ![Build-Filter-Codebuild](/images/build-filter-codebuild.png)
+  
 - 当**gcr-rs-dev-workshop-filter-build**更新成功后，ArgoCD会在3分钟内部署filter服务，请到ArgoCD查看。
 - 验证：当点击三个新闻后，您将看到推荐列表由冷启动逻辑转换成个性化推荐逻辑。 推荐结果由两部分组成，第一部分是根据您的用户画像中最感兴趣的类型进行的顶级推荐。在这个例子中，由于**gcr-rs-admin**对娱乐很感兴趣，所以推荐列表的前3行是娱乐新闻：
   
