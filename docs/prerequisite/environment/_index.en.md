@@ -10,20 +10,14 @@ In order to complete this workshop you’ll need an AWS Account, and an AWS IAM 
 
 ## AWS Region
 This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**. However, more regions have been test.
-| Region | Status |
-| --- | --- |
-| cn-north-1| To Be Test | 
-| cn-northwest-1| To Be Test |
-| ap-southeast-1| Pass |
-| ap-northeast-1| To Be Test |
-| ap-northeast-2| Under Test |
-| ap-northeast-3| Not Support |
 
 ## Browser
 We recommend you use the latest version of **Chrome** to complete this workshop.
 
 ## SageMaker Resource Requirement
-To test certain workshop functions, your SageMaker resource limit need to meet the minimum requirement as below. Check and increase the SageMaker resource limit by clicking [here](https://sagemaker-tools.corp.amazon.com/limits)
+To test certain workshop functions, your SageMaker resource limit need to meet the minimum requirement as below. 
+
+[comment]: <> (Check and increase the SageMaker resource limit by clicking https://sagemaker-tools.corp.amazon.com/limits )
 
 |Resource type |Resource | 	Required limit |
 |--- | --- | --- |

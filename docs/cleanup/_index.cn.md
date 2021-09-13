@@ -8,7 +8,8 @@ weight: 60
 1. 在终端命令行中，运行以下命令删除推荐系统的在线部分： 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./clean-online.sh
+    nohup ./clean-online.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log
     ```
    
    {{% notice info %}}
@@ -18,7 +19,8 @@ weight: 60
 2. 运行以下命令删除推荐系统的离线部分： 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./clean-offline.sh
+    nohup ./clean-offline.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log
     ```
  
 **注意**： 当您执行完以上步骤，推荐系统的在线与离线部分已经删除完成。若您想彻底清空所有资源，您还需执行以下步骤：

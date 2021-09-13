@@ -9,7 +9,8 @@ weight: 6
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./setup-rs-system.sh application
+    nohup ./setup-rs-system.sh application > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log 
     ```
 
     大约 1 分钟后，控制台将显示如下消息：
@@ -24,7 +25,8 @@ weight: 6
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    ./load-seed-data.sh
+    nohup ./load-seed-data.sh > ~/nohup.log 2>&1 &
+    tail -f ~/nohup.log 
     ```
 
 5. 获取 GUI 端点URL： 

@@ -16,7 +16,9 @@ weight: 10
 
 ## SageMaker 资源要求
 
-为了测试此动手实践的某些功能，您的 AWS SageMaker 资源限制需要满足以下最低要求。 单击 [此处](https://sagemaker-tools.corp.amazon.com/limits) 检查并增加 AWS SageMaker 资源限制。
+为了测试此动手实践的某些功能，您的 AWS SageMaker 资源限制需要满足以下最低要求。 
+
+[comment]: <> (内部链接：https://sagemaker-tools.corp.amazon.com/limits 检查并增加 AWS SageMaker 资源限制。)
 
 |Resource type |Resource | 	Required limit |
 |--- | --- | --- |

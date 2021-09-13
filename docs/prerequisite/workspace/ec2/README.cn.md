@@ -7,22 +7,19 @@ weight: 1
 
 ### 创建密钥对
 
-1. 转到 [Key pairs](https://ap-northeast-2.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-2#KeyPairs:)
-2. 创建密钥对: `gcr-rs-dev-workshop-ec2-key` 
-
-  ![Key pairs](/images/ec2-key-pair.png)
+1. 打开 [创建密钥对（ap-northeast-1)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#CreateKeyPair:) or [创建密钥对 (cn-north-1)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#CreateKeyPair:)
+2. 设置名字为: `gcr-rs-dev-workshop-ec2-key` 
 
   ![Create key pair](/images/ec2-key-pair-name.png)
    
 3. 保存密钥对文件到本地目录, 例如: `~/Downloads`
 
 4. 打开 SSH 客户端, 运行下面命令, 确保您的密钥对对他人不可见
-```sh
-cd ~/Downloads
 
-chmod 400 gcr-rs-dev-workshop-ec2-key.pem
-
-```
+   ```sh
+   cd ~/Downloads
+   chmod 400 gcr-rs-dev-workshop-ec2-key.pem
+   ```
 
 ## 创建 EC2 实例
 
@@ -64,23 +61,25 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 6. 打开 SSH 客户端, 执行以下命令来连接 EC2 实例。**注意**：将 <EC2_IP_Address> 替换成复制的 IP地址。
 
-```shell
-cd ~/Downloads
-HOST_IP=<EC2_IP_Address>
-ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
-```
+   ```shell
+   cd ~/Downloads
+   HOST_IP=<EC2_IP_Address>
+   ssh -i "gcr-rs-dev-workshop-ec2-key.pem" ec2-user@${HOST_IP}
+   ```
 
-7. 检查工具与环境变量
+7. 若命令行显示以下信息，请输入 `yes`:
 
-```shell
-eksctl version
-kubectl version --client
-aws configure get default.region
-echo $REGION
-```
-
-{{% notice info %}}
+   ![Connect-to-ec2](/images/connect-to-ec2.png)
    
-假如上面的信息是空， 请运行 `tail /var/log/user-data.log` 检查 log，确保初始化脚本允许完成，然后**重新登录** EC2
+8. 检查工具与环境变量
 
-{{% /notice %}}
+   ```shell
+   eksctl version
+   kubectl version --client
+   aws configure get default.region
+   echo $REGION
+   ```
+
+   {{% notice info %}}
+   假如上面的信息是空， 请运行 `tail /var/log/user-data.log` 检查 log，确保初始化脚本允许完成，然后**重新登录** EC2
+   {{% /notice %}}
