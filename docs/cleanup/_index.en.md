@@ -24,7 +24,9 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
     tail -f ~/nohup.log
     ```
    
-**Attention**: After you finish the above steps, the online and offline parts of the recommendation system have been cleaned. If you want to completely empty all resources, you need to perform the following steps: 
+   {{% warning info %}}
+    After you finish the above steps, the online and offline parts of the recommendation system have been cleaned. If you want to completely empty all resources, you need to perform the following steps: 
+   {{% /warning %}}
 
 3. Go to [IAM Role Console](https://console.aws.amazon.com/iam/home#/roles), select the role beginning with `gcr-rs-dev-workshop-ec2` and delete it.
 
