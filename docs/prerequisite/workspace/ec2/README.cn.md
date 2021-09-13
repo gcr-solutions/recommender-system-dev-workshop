@@ -7,8 +7,8 @@ weight: 1
 
 ### 创建密钥对
 
-1. 打开 [创建密钥对（ap-northeast-1)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#CreateKeyPair:) or [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#CreateKeyPair:)
-2. 创建密钥对: `gcr-rs-dev-workshop-ec2-key` 
+1. 打开 [创建密钥对（ap-northeast-1)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#CreateKeyPair:) or [创建密钥对 (cn-north-1)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#CreateKeyPair:)
+2. 设置名字为: `gcr-rs-dev-workshop-ec2-key` 
 
   ![Create key pair](/images/ec2-key-pair-name.png)
    

@@ -8,7 +8,7 @@ weight: 1
 ### Create key pair
 
 1. Go to [Key pairs (ap-northeast-1 region)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#CreateKeyPair:) or [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#CreateKeyPair:)
-2. Create a key pair: `gcr-rs-dev-workshop-ec2-key` 
+2. Set Name: `gcr-rs-dev-workshop-ec2-key` 
 
   ![Create key pair](/images/ec2-key-pair-name.png)
    
