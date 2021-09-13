@@ -37,7 +37,7 @@ In this step, you will create Argo CD application to deploy all online services 
 
    **Attention**：If this workshop deployed in China Region，you will see the following output and mention you to create SSH Tunnel. Open a new SSH Client in your local environment and goto the Key Pair directory. Copy and Paste the following SSH Command.
    
-   ![Create Tunnel](/images/create-tunnel-argocd.png)
+   ![Create Tunnel](/images/create-tunnel-endpoint.png)
 
     Access ui through browser, it should like below:
 
