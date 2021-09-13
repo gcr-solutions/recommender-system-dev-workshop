@@ -46,7 +46,7 @@ weight: 44
     git push
     ```
 
-- 转到 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects) 检查 **gcr-rs-dev-workshop-recall-build**，它应该已经被触发。
+- 转到 [codebuild 项目](https://console.aws.amazon.com/codesuite/codebuild/projects) , 搜索 **gcr-rs-dev-workshop-recall-build**，并重新构建该项目。
 - **gcr-rs-dev-workshop-recall-build**成功后，ArgoCD会在3分钟内部署过滤服务，请到ArgoCD查看。
 - 验证：点击三个消息后，会触发召回过程，您可以到argo cd服务器查看召回服务日志，您应该在**recall result**中看到 **portrait_** 有关文本。
   

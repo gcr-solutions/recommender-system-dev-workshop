@@ -48,7 +48,7 @@ the entertainment, the first 2-3 lines of recommendation list are entertainment 
     git push
     ```
 
-- Go to [codebuild project](https://console.aws.amazon.com/codesuite/codebuild/projects) to check **gcr-rs-dev-workshop-recall-build**, it should be triggered.
+- Go to [codebuild project](https://console.aws.amazon.com/codesuite/codebuild/projects) and search **gcr-rs-dev-workshop-recall-build**.  Build the project again.
 - After **gcr-rs-dev-workshop-recall-build** succeeded, ArgoCD will deploy filter services in 3 minutes, please go to ArgoCD to check it.
 - Verify it. After clicking at three pieces of news, recall process will be triggered, you can go to argo cd server to check recall service log, you should see **portrait_** text in **recall result**
 
