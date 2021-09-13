@@ -26,18 +26,18 @@ chmod 400 gcr-rs-dev-workshop-ec2-key.pem
 
 ## 创建 EC2 实例
 
-1. 转到 [CloudFormation (ap-northeast-1 区域)](https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/new?stackName=gcr-rs-dev-workshop-ec2&templateURL=https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
-) 或者 [CloudFormation (cn-north-1)](https://console.amazonaws.cn/cloudformation/home?region=cn-north-1#/stacks/create/template?region=cn-north-1&stackName=gcr-rs-dev-workshop-ec2&templateURL=https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1/cn-rs-raw-ec2.yaml)
+1. 转到 [CloudFormation (ap-northeast-1 区域)](https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/new?stackName=gcr-rs-dev-workshop-ec2&templateURL=https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1.0.3/rs-raw-ec2.yaml
+) 或者 [CloudFormation (cn-north-1)](https://console.amazonaws.cn/cloudformation/home?region=cn-north-1#/stacks/create/template?region=cn-north-1&stackName=gcr-rs-dev-workshop-ec2&templateURL=https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1.0.3/cn-rs-raw-ec2.yaml)
 
    CloudFormation 模版:
 
    - AWS 全球区域:
    ```   
-    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1/rs-raw-ec2.yaml
+    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1.0.3/rs-raw-ec2.yaml
    ```
    - AWS 中国区域:
    ``` 
-    https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1/cn-rs-raw-ec2.yaml
+    https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1.0.3/cn-rs-raw-ec2.yaml
    ```
    
 
