@@ -7,7 +7,7 @@ weight: 1
 
 ### Create key pair
 
-1. Go to [Key pairs (ap-northeast-1 region)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#KeyPairs:) or [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#KeyPairs:)
+1. Go to [Key pairs (ap-northeast-1 region)](https://ap-northeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-northeast-1#CreateKeyPair:) or [Key pairs (cn-north-1 region)](https://console.amazonaws.cn/ec2/v2/home?region=cn-north-1#CreateKeyPair:)
 2. Create a key pair: `gcr-rs-dev-workshop-ec2-key` 
 
   ![Create key pair](/images/ec2-key-pair-name.png)
@@ -43,7 +43,7 @@ weight: 1
    
    ![EC2 CloudFormation Stack ](/images/ec2-cf-stackname.png)
 
-4. Next -> Next -> Create Stack
+4. Click Next -> Next -> Create Stack
   
    ![EC2 CloudFormation Create ](/images/ec2-cf-create.png)
 
