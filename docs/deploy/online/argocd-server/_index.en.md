@@ -17,6 +17,11 @@ In this step, you will setup Argo CD server in EKS cluster
    This will take about 2 minutes to provision
    {{% /notice %}}
 
+   **Attention**：If this workshop deployed in China Region，you will see the following output and mention you to create SSH Tunnel. Open a new SSH Client in your local environment and goto the Key Pair directory. Copy and Paste the following SSH Command.
+   
+   ![Create Tunnel](/images/create-tunnel-argocd.png)
+
+
    the console will output **user name**, **password** and server **endpoint** of argocd like below:
 
    ![Argocd password](/images/argocd-password.png)
