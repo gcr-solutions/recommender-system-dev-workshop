@@ -29,12 +29,13 @@ weight: 1
    CloudFormation template:
    - AWS Global region:
    ```   
-https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1.0.3/rs-raw-ec2.yaml
+    https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1.0.3/rs-raw-ec2.yaml
    ```
    - AWS China region:
-   ``` 
-https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1.0.3/cn-rs-raw-ec2.yaml
-   ```
+    
+    ``` 
+    https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1.0.3/cn-rs-raw-ec2.yaml
+    ```
 
    ![EC2 CloudFormation ](/images/ec2-cf-s3url.png)
 
