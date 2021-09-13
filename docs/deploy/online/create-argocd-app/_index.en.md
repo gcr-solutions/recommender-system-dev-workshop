@@ -17,11 +17,11 @@ In this step, you will create Argo CD application to deploy all online services 
 
     **application 'gcr-recommender-system-news-dev' created**
 
-3. Access argo cd portal to check services deployment status. **Please make sure all the heart status become green and all the rotating tags become stable!!**:
+2. Access argo cd portal to check services deployment status. **Please make sure all the heart status become green and all the rotating tags become stable!!**:
 
     ![Argocd application status](/images/argocd-app-status.png)
 
-4. Load the seed data into the system. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
+3. Load the seed data into the system. Go to /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts directory
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
@@ -29,7 +29,7 @@ In this step, you will create Argo CD application to deploy all online services 
     tail -f ~/nohup.log 
     ```
 
-5. Get the GUI endpoint:
+4. Get the GUI endpoint:
 
     ```sh
     ./get-ingressgateway-elb-endpoint.sh

@@ -5,7 +5,7 @@ weight: 4
 
 In this step, you'll update online services config according to infrastructure created in previous steps.
 
-2. Run the command below to update local config, including:
+1. Run the command below to update local config, including:
 
     - Elasticache(Redis) endpoint
     - AccountId
@@ -16,7 +16,7 @@ In this step, you'll update online services config according to infrastructure c
     ./setup-rs-system.sh config
     ```
 
-3. Push your change to your github repo through below command:
+2. Push your change to your github repo through below command:
 
     ```sh
     git pull
