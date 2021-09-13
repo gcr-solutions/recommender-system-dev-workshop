@@ -15,7 +15,9 @@ This workshop is shown in **(Tokyo)ap-northeast-1** and **(Beijing)cn-north-1**.
 We recommend you use the latest version of **Chrome** to complete this workshop.
 
 ## SageMaker Resource Requirement
-To test certain workshop functions, your SageMaker resource limit need to meet the minimum requirement as below. Check and increase the SageMaker resource limit by clicking [here](https://sagemaker-tools.corp.amazon.com/limits)
+To test certain workshop functions, your SageMaker resource limit need to meet the minimum requirement as below. 
+
+[comment]: <> (Check and increase the SageMaker resource limit by clicking https://sagemaker-tools.corp.amazon.com/limits )
 
 |Resource type |Resource | 	Required limit |
 |--- | --- | --- |
