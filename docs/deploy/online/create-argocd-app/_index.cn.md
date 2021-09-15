@@ -35,6 +35,10 @@ weight: 6
     ./get-ingressgateway-elb-endpoint.sh
     ```
 
+   **注意**：若您部署的区域是中国区域，您将会看到以下命令，提示您创建 SSH 隧道。请复制 SSH 命令，在本地重新打开一个SSH 客户端，进入到保存密钥对的文件夹。粘贴并执行 SSH 命令。
+   
+   ![Create Tunnel](/images/create-tunnel-endpoint.png)
+   
     通过端点URL访问应用网站，界面应该如下图所示： 
 
     ![Demo UI](/images/demo-ui.png)

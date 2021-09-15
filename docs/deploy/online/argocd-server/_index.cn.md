@@ -16,7 +16,11 @@ weight: 5
    {{% notice info %}}
    这将需要大约 2 分钟的时间进行配置
    {{% /notice %}}
-
+   
+   **注意**：若您部署的区域是中国区域，您将会看到以下命令，提示您创建 SSH 隧道。请复制 SSH 命令，在本地重新打开一个SSH 客户端，进入到保存密钥对的文件夹。粘贴并执行 SSH 命令。
+   
+   ![Create Tunnel](/images/create-tunnel-argocd.png)
+   
    控制台将输出 Argo CD 的**用户名**、**密码**和服务器**端点**，如下所示：
 
    ![Argocd password](/images/argocd-password.png)

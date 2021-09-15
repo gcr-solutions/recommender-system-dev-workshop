@@ -35,12 +35,16 @@ In this step, you will create Argo CD application to deploy all online services 
     ./get-ingressgateway-elb-endpoint.sh
     ```
 
+   **Attention**：If this workshop deployed in China Region，you will see the following output and mention you to create SSH Tunnel. Open a new SSH Client in your local environment and goto the Key Pair directory. Copy and Paste the following SSH Command.
+   
+   ![Create Tunnel](/images/create-tunnel-endpoint.png)
+
     Access ui through browser, it should like below:
 
     ![Demo UI](/images/demo-ui.png)
 
 Congratulations!!! The recommender system has been deployed successfully!!
-**Attention**: The default setting of Dashboard scheduled to automatic calculation. If you want to save costs, please open [cloudwatch control panel](https://console.aws.amazon.com/events/home#/rules), select and disable `rs -dev-workshop-News-DashboardScheduledRule`.
+**Attention**: The default setting of Dashboard scheduled to automatic calculation. If you want to save costs, please open [cloudwatch control panel](https://console.aws.amazon.com/events/home#/rules), select and disable `rs-dev-workshop-News-DashboardScheduledRule`.
 
 ![Dashboard Schedule Disable](/images/dashboard-schedule-disable.png)
 
