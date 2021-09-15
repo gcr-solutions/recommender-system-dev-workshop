@@ -7,7 +7,7 @@ In this part, you'll change some code to add two features in online part, and th
 
 1. Add hot topic
 - Open `recommender-system-dev-workshop-code/src/filter/plugins/news/service.py` file
-- Go to line 355 and uncomment below code.
+- Go to line 358 and uncomment below code.
     ```
     # hot_topic_news_list = self.get_hot_topic_news_list(user_id, hot_topic_count, present_recommend_news_id_list, recommended_news_list)
     ```

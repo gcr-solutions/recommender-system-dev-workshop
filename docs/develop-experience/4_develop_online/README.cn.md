@@ -7,7 +7,7 @@ weight: 44
 
 1. 添加热点话题
 - 打开`recommender-system-dev-workshop-code/src/filter/plugins/news/service.py`文件
-- 转到第 355 行并取消注释下面的代码。
+- 转到第 358 行并取消注释下面的代码。
     ```
     # hot_topic_news_list = self.get_hot_topic_news_list(user_id, hot_topic_count, present_recommend_news_id_list, recommended_news_list)
     ```
