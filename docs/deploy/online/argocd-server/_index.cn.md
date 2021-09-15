@@ -9,7 +9,7 @@ weight: 5
 
    ```sh
    cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-   nohup ./setup-rs-system.sh argo-server > ~/nohup.log 2>&1 &
+   nohup ./setup-rs-system.sh argo-server >> ~/nohup.log 2>&1 &
    tail -f ~/nohup.log 
    ```
    

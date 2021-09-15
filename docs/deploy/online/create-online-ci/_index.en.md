@@ -9,7 +9,7 @@ In this step, you'll create AWS CodeBuild project to build services of Recommend
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./setup-rs-system.sh online-codebuild > ~/nohup.log 2>&1 &
+    nohup ./setup-rs-system.sh online-codebuild >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log 
     ```
     
