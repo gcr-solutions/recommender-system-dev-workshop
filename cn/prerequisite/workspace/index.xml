@@ -3,7 +3,4 @@
 cd ~/Downloads chmod 400 gcr-rs-dev-workshop-ec2-key.pem 创建 EC2 实例 转到 CloudFormation (ap-northeast-1 区域) 或者 CloudFormation (cn-north-1)
 CloudFormation 模版:
 AWS 全球区域: https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/release/v1.1.0/rs-raw-ec2.yaml AWS 中国区域: https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/release/v1.1.0/cn-rs-raw-ec2.yaml Stack 名字: gcr-rs-dev-workshop-ec2 KeyPairParam: gcr-rs-dev-workshop-ec2-key
-点击按钮 &amp;ldquo;下一步&amp;rdquo; -&amp;gt; &amp;ldquo;下一步&amp;rdquo; -&amp;gt; &amp;ldquo;创建&amp;rdquo;</description></item><item><title>创建 SSH 密钥</title><link>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gcr-solutions.github.io/recommender-system-dev-workshop/cn/prerequisite/workspace/create-ssh-key/readme/</guid><description>运行以下命令在 EC2 中生成 SSH 密钥，此密钥将允许以 ssh 方式访问工作节点实例。
-ssh-keygen 按回车 3次以采用默认选择
-将公钥上传到您的 EC2 实例：
-# aws ec2 delete-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; aws ec2 import-key-pair --key-name &amp;#34;gcr-rs-dev-workshop-key&amp;#34; --public-key-material file://~/.ssh/id_rsa.pub</description></item></channel></rss>
+点击按钮 &amp;ldquo;下一步&amp;rdquo; -&amp;gt; &amp;ldquo;下一步&amp;rdquo; -&amp;gt; &amp;ldquo;创建&amp;rdquo;</description></item></channel></rss>
