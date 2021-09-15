@@ -3,6 +3,12 @@ title: 切换至Amazon Personalize服务 (即将上线)
 weight: 48
 ---
 
+本功能即将上线，您可以将 CloudFormation 模版改成下面链接，来体验内测版本：
+
+```shell
+https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/github/develop/rs-raw-ec2.yaml
+```
+
 Amazon Personalize是一项完全托管的个性化推荐服务，包含了多种算法。这些算法基于Amazon零售业务二十多年的个性化经验与开发专业知识。GCR 个性化推荐系统提供了三种集成Amazon Personalize的方案，您可以一键式切换至不同的方案，对比它们的推荐结果，并选择出最适合您当前业务的推荐系统方案。三种方案如下表所示：
 
 |方案 |使用的Amazon Personalize配方 | 方案介绍 | 代号 |

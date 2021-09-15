@@ -3,6 +3,12 @@ title: Switch to Amazon Personalize Method (To Be Released)
 weight: 48
 ---
 
+This feature will be launched soon, you can change the CloudFormation template to the following link to experience the internal beta version:
+
+```shell
+https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/github/develop/rs-raw-ec2.yaml
+```
+
 Amazon Personalize is a fully managed personalized recommendation service that includes a variety of algorithms. These algorithms based on more than 20 years of personalization experience and development expertise in Amazon's retail business. The GCR Recommendation System provides three suggestions to use Amazon Personalize. You can switch to different mode with only one command, compare their recommendation results, and choose the most suitable recommendation system plan for your current business. The three plans shown in the following table:
 
 |Plan |Amazon Personalize Recipe | Description | Alias |
