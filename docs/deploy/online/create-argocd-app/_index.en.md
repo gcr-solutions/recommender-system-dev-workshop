@@ -45,9 +45,9 @@ In this step, you will create Argo CD application to deploy all online services 
 
 Congratulations!!! The recommender system has been deployed successfully!!
 
-   {{% warning info %}}
+   {{% notice info %}}
     The default setting of Dashboard scheduled to automatic calculation. If you want to save costs, please open [cloudwatch control panel](https://console.aws.amazon.com/events/home#/rules), select and disable `rs -dev-workshop-News-DashboardScheduledRule`.
-   {{% /warning %}}
+   {{% /notice %}}
 
 ![Dashboard Schedule Disable](/images/dashboard-schedule-disable.png)
 

@@ -22,9 +22,11 @@ weight: 60
     nohup ./clean-offline.sh >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log
     ```
- 
-**注意**： 当您执行完以上步骤，推荐系统的在线与离线部分已经删除完成。若您想彻底清空所有资源，您还需执行以下步骤：
-
+   
+   {{% notice info %}}
+   当您执行完以上步骤，推荐系统的在线与离线部分已经删除完成。若您想彻底清空所有资源，您还需执行以下步骤：
+   {{% /notice %}}
+   
 3. 打开 [Cloudformation Console](https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/), 选择并删除 `gcr-rs-dev-workshop-ec2` 项目。
 
 4. 在 [IAM 角色控制台](https://console.aws.amazon.com/iam/home#/roles) 中, 选择并删除 `gcr-rs-dev-workshop-admin` 角色。
