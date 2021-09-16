@@ -68,6 +68,30 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 
+## 如何切换至不同方法（可选） 
+
+如果您有兴趣进一步了解该功能背后的逻辑，可以查看以下内容。 
+
+当您执行完 `change-method.sh $METHOD` 后，您可以看到终端输出了以下内容：
+
+![change method output](/images/change-method-output.png)
+
+该脚本执行了以下步骤：
+
+1. 通过传入的 **METHOD** 参数，更新配置文件（ps_config.json）中的 Personalize 方案名与活动名。
+
+2. 通过调用 Amazon Personalize 服务的接口，查询最新的版本号，并更新至配置文件（ps_config.json）。   
+
+3. 将更新完的配置文件同步到 AWS S3 桶中。
+
+4. 通知在线系统的 Loader 服务去从 AWS S3 桶中下载最新的配置文件。
+
+5. 更新 AWS EKS 的 ConfigMap 中的 METHOD 变量值，并将更改提交到 AWS CodeCommit 的仓库中。
+
+当 ConfigMap 更新后，Argo CD 将会在 3 分钟内自动同步服务，流程图如下所示：
+
+![change method process](/images/change-method-process.png)
+
 
 
 

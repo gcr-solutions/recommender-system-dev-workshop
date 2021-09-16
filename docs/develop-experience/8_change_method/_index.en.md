@@ -68,7 +68,27 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ```
 
 
+## How to switch method（optional）
 
+If you have interests in understanding more about the process behind switching method, you can check the following content. 
 
+After you execute the change-method.sh, you will see the following output in your terminal:
 
+![change method output](/images/change-method-output.png)
+
+The change-method.sh script has the following steps:
+
+1. Update the solution name and campaign name in the config file (ps_config.json) by the input variable **METHOD**. 
+   
+2. Update the Latest Version ID in the config file (ps_config.json) from the Amazon Personalize Service.
+
+3. Synchronize the new config file to the AWS S3 Service.
+
+4. Notify the online loader service to download the latest config file from S3.
+
+5. Update the METHOD variable in the EKS ConfigMap. Commit the change and push to the repository in the AWS CodeCommit Service.
+
+After execution, Argo CD will synchronize the service automatically. The process is as following:
+
+![change method process](/images/change-method-process.png)
 
