@@ -23,7 +23,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-complete
 ```
 
-After execution, open the Argo CD website and click **REFRESH**, you will see that containers are synchronizing and updating. This process takes about 1 minute.
+After execution, ArgoCD will deploy services in 3 minutes. Open the Argo CD website, you will see that containers are synchronizing and updating. If not, please click **REFRESH**. This process takes about 1 minute.
 
 ![Argo CD Sync](/images/argocd-sync-method.png)
 
@@ -37,7 +37,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-rank
 ```
 
-After execution, open the Argo CD website and click **REFRESH**, you will see that containers are synchronizing and updating. This process takes about 1 minute.
+After execution, open the Argo CD website and wait for the synchronization to complete.
 
 Open the Demo Website, at this time the Recommendation System has been changed to use aws-personalized-ranking model rather than DKN model for ranking process. Click three news, and open the logs of the Rank Pod on the Argo CD website. You can see the ranking result contains the word **ps-rank**.
 
@@ -49,7 +49,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-sims
 ```
 
-After execution, open the Argo CD website and click **REFRESH**, you will see that containers are synchronizing and updating. This process takes about 1 minute.
+After execution, open the Argo CD website and wait for the synchronization to complete.
 
 Open the Demo Website. At this time, the Recommendation system has added one more recall logic implemented by aws-sims to recall service. Click three news, and open the logs of the Recall Pod on the Argo CD website. You can see the recall result contains the word **ps-sims**.
 

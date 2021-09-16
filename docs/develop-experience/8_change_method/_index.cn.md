@@ -23,7 +23,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-complete
 ```
 
-执行完毕后，打开 Argo CD 网页，点击 **REFRESH**，您会看到容器正在同步更新，此过程大概需要 1 分钟。
+执行完毕后，ArgoCD会在3分钟内部署服务，打开 Argo CD 网页，您会看到容器正在同步更新。若没有显示，请点击 **REFRESH** 。部署过程大概需要 1 分钟。
 
 ![Argo CD Sync](/images/argocd-sync-method.png)
 
@@ -37,7 +37,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-rank
 ```
 
-执行完毕后，打开 Argo CD 网页，点击 **REFRESH**，等待同步完成。
+执行完毕后，打开 Argo CD 网页，等待同步完成。
 
 打开新闻界面，此时推荐系统的排序模型已改为 aws-personalized-ranking 模型。点击三篇新闻，打开Argo CD网站中的 Rank Pod，可以在 LOGS 栏的最下面看到由 **ps-rank** 实现的排序功能。
 
@@ -49,7 +49,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./change-method.sh ps-sims
 ```
 
-执行完毕后，打开 Argo CD 网页，点击 **REFRESH**，等待同步完成
+执行完毕后，打开 Argo CD 网页，等待同步完成。
 
 打开新闻界面，此时推荐系统的召回模型已添加了 aws-sims 实现的一路召回逻辑。点击三篇新闻，打开Argo CD网站中的 Recall Pod，可以在 LOGS 栏的最下面看到由 **ps-sims** 实现的召回逻辑。
 
