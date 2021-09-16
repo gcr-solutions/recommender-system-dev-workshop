@@ -43,7 +43,11 @@ weight: 6
 
     ![Demo UI](/images/demo-ui.png)
 
-恭喜你！ 推荐系统部署成功！！ **注意**： 管理员控制面板默认设置为定时自动计算，若您想节约成本，请打开[cloudwatch 控制面板](https://console.aws.amazon.com/events/home#/rules), 选中并关闭 `rs-dev-workshop-News-DashboardScheduledRule`。
+恭喜你！ 推荐系统部署成功！！
+
+   {{% warning info %}}
+   管理员控制面板默认设置为定时自动计算，若您想节约成本，请打开[cloudwatch 控制面板](https://console.aws.amazon.com/events/home#/rules), 选中并关闭 `rs-dev-workshop-News-DashboardScheduledRule`。
+   {{% /warning %}}
 
 ![Dashboard Schedule Disable](/images/dashboard-schedule-disable.png)
 
