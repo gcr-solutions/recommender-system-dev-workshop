@@ -25,7 +25,7 @@ In this step, you will create Argo CD application to deploy all online services 
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./load-seed-data.sh > ~/nohup.log 2>&1 &
+    nohup ./load-seed-data.sh >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log 
     ```
 

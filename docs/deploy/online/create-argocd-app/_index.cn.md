@@ -25,7 +25,7 @@ weight: 6
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./load-seed-data.sh > ~/nohup.log 2>&1 &
+    nohup ./load-seed-data.sh >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log 
     ```
 
