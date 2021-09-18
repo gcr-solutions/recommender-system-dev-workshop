@@ -7,12 +7,12 @@ This feature will be launched soon, you can change the CloudFormation template t
 
 Global Region：
 ```shell
-https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/github/develop/rs-raw-ec2.yaml
+https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/github/develop/v1.2/rs-raw-ec2.yaml
 ```
 
 China (Beijing) Region：
 ```shell
-https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/github/develop/cn-rs-raw-ec2.yaml
+https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/github/develop/v1.2/cn-rs-raw-ec2.yaml
 ```
 
 Amazon Personalize is a fully managed personalized recommendation service that includes a variety of algorithms. These algorithms based on more than 20 years of personalization experience and development expertise in Amazon's retail business. The GCR Recommendation System provides three suggestions to use Amazon Personalize. You can switch to different mode with only one command, compare their recommendation results, and choose the most suitable recommendation system plan for your current business. The three plans shown in the following table:
