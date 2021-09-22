@@ -81,5 +81,5 @@ weight: 20
    ```
 
    {{% notice info %}}
-   假如上面的信息是空， 请运行 `tail /var/log/user-data.log` 检查 log，确保初始化脚本允许完成，然后**重新登录** EC2
+   假如上面的信息是空， 请运行 `tail /var/log/user-data.log` 检查 log，确保初始化脚本运行完成，然后**重新登录** EC2
    {{% /notice %}}

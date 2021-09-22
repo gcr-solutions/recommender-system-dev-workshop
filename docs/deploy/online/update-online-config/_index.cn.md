@@ -15,7 +15,7 @@ weight: 4
     ./setup-rs-system.sh config
     ```
 
-3. 通过以下命令将更新过的文件推送到您的 Github 仓库：
+3. 通过以下命令将更新过的文件推送到您的 CodeCommit 仓库：
 
     ```sh
     git pull

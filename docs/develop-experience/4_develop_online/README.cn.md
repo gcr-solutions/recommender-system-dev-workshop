@@ -11,7 +11,7 @@ weight: 44
     ```
     # hot_topic_news_list = self.get_hot_topic_news_list(user_id, hot_topic_count, present_recommend_news_id_list, recommended_news_list)
     ```
-- 将您的更改推送到您的 github 存储库
+- 将您的更改推送到您的 CodeCommit 存储库
 
     ```
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/plugins/news
@@ -36,7 +36,7 @@ weight: 44
     ```
     # self.recall_by_portrait(user_portrait, recall_wrap, recall_items, multiple_shot_record)
     ```
-- 将您的更改推送到您的 github 存储库
+- 将您的更改推送到您的 CodeCommit 存储库
 
     ```
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/recall/plugins/news

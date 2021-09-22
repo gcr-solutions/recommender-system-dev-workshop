@@ -16,7 +16,7 @@ In this step, you'll update online services config according to infrastructure c
     ./setup-rs-system.sh config
     ```
 
-2. Push your change to your github repo through below command:
+2. Push your change to your CodeCommit repo through below command:
 
     ```sh
     git pull

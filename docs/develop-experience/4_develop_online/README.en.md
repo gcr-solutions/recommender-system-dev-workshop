@@ -11,7 +11,7 @@ In this part, you'll change some code to add two features in online part, and th
     ```
     # hot_topic_news_list = self.get_hot_topic_news_list(user_id, hot_topic_count, present_recommend_news_id_list, recommended_news_list)
     ```
-- Push your change to your github repo
+- Push your change to your CodeCommit repo
 
     ```
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/filter/plugins/news
@@ -38,7 +38,7 @@ the entertainment, the first 2-3 lines of recommendation list are entertainment 
     ```
     # self.recall_by_portrait(user_portrait, recall_wrap, recall_items, multiple_shot_record)
     ```
-- Push your change to your github repo
+- Push your change to your CodeCommit repo
 
     ```
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/src/recall/plugins/news
