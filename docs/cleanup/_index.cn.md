@@ -26,17 +26,22 @@ weight: 60
    {{% notice info %}}
    当您执行完以上步骤，推荐系统的在线与离线部分已经删除完成。若您想彻底清空所有资源，您还需执行以下步骤：
    {{% /notice %}}
+
+3. 打开 [IAM Role 控制台](https://console.aws.amazon.com/iam/home#/roles), 选择并删除开头为 `gcr-rs-dev-workshop-ec2` 的 IAM 角色。
+
+   ![GCR RS DEV](/images/gcr-rs-dev.png)
+
+4. 打开 [Cloudformation 控制台](https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/), 选择并删除以下项目：
+
+   - `gcr-rs-dev-workshop-ec2` 
+   - `rs-dev-workshop-codebuild-role-stack`
    
-3. 打开 [Cloudformation Console](https://ap-southeast-1.console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/), 选择并删除 `gcr-rs-dev-workshop-ec2` 项目。
-
-4. 在 [IAM 角色控制台](https://console.aws.amazon.com/iam/home#/roles) 中, 选择并删除 `gcr-rs-dev-workshop-admin` 角色。
-
 5. 在 [EC2 Key Pairs](https://console.aws.amazon.com/ec2/v2/home#KeyPairs:search=gcr-rs-dev-workshop-key) 中, 选择并删除 `gcr-rs-dev-workshop-key`。
 
 6. 删除您保存的 `gcr-rs-dev-workshop-ec2-key.pem` 文件。假如您使用的是 Macbook，请执行以下命令：
 
-```sh
-cd ~/Downloads
-rm -f gcr-rs-dev-workshop-ec2-key.pem
-```
+   ```sh
+   cd ~/Downloads
+   rm -f gcr-rs-dev-workshop-ec2-key.pem
+   ```
 
