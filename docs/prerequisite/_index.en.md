@@ -5,5 +5,5 @@ weight: 20
 
 To start the workshop, you’ll need the following steps:
 
-- [Check Environment](./environment/)
+- [Checking Environment](./environment/)
 - [Setting up Workspace](./workspace/)
