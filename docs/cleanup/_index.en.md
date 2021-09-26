@@ -42,7 +42,7 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
 6. Suppose you are using Mac, go to your local disk which saves the key, eg: `~/Downloads`
 
-```
-cd ~/Downloads
-rm -f gcr-rs-dev-workshop-ec2-key.pem
-```
+   ```
+   cd ~/Downloads
+   rm -f gcr-rs-dev-workshop-ec2-key.pem
+   ```
