@@ -20,7 +20,7 @@ In this step, you'll update online services config according to infrastructure c
 
     ```sh
     git pull
-    git add ../manifests/envs/news-dev/config.yaml
+    git add -A
     git commit -m "update config"
     git push
     ```

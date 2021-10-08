@@ -8,7 +8,7 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 1. In the terminal, run below command to delete online:
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./clean-online.sh >> ~/nohup.log 2>&1 &
+    nohup ./setup-rs-system.sh clean-online >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log
     ```
    
@@ -20,7 +20,7 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./clean-offline.sh >> ~/nohup.log 2>&1 &
+    nohup ./setup-rs-system.sh clean-offline >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log
     ```
    
