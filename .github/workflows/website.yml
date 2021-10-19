@@ -1,13 +1,5 @@
 name: website
-
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - docs/**/*
-      - website/**/*
-
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-18.04
