@@ -23,6 +23,8 @@ Amazon Personalize是一项完全托管的个性化推荐服务，包含了多�
 |排序模型替代方案|aws-personalized-ranking |GCR 个性化推荐系统现有的排序模型是基于知识图谱的DKN模型。 如果您想使用Amazon Personalize提供的排序模型，可以采用此方案。此方案的在线部分将排序模块的 DKN 模型替换成 aws-personalized-ranking 模型。离线部分在原有流程的基础上，增加了Amazon Personalize服务的模型训练与数据集导入流程，并在排序模块的批量更新（rank batch）中将模型替换成了 aws-personalized-ranking 模型。 |ps-rank|
 |添加召回逻辑方案|aws-sims |GCR 个性化推荐系统现有的召回模型包含了四路召回逻辑。 如果您想使用Amazon Personalize提供的物品相似度模型作为第五路召回逻辑的话，可以采用此方案。此方案的在线部分在召回模块中多增加了一路召回逻辑，该召回逻辑采用了 aws-sims 物品相似度配方。离线部分在原有流程的基础上，增加了Amazon Personalize服务的模型训练与数据集导入流程，并在召回模块的批量更新（recall batch）中增加了 aws-sims 实现的一路召回逻辑。 |ps-sims|
 
+切换推荐方式通过运行 `change-method.sh` 脚本实现。若您没有部署该推荐方式，请按照终端打印的要求进行部署。
+
 若您想切换至**完整替代方案**，执行以下命令：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
