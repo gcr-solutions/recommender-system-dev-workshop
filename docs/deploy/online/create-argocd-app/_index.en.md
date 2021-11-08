@@ -29,7 +29,15 @@ In this step, you will create Argo CD application to deploy all online services 
     tail -f ~/nohup.log 
     ```
 
-4. Get the GUI endpoint:
+4. Synchronize the method config file to the system. 
+
+   ```shell
+   cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts   
+   nohup ./setup-rs-system.sh sync-method >> ~/nohup.log 2>&1 &
+   tail -f ~/nohup.log
+   ```
+
+5. Get the GUI endpoint:
 
     ```sh
     ./setup-rs-system.sh get-endpoint
