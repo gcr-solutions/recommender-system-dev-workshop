@@ -26,7 +26,7 @@ Amazon Personalize is a fully managed personalized recommendation service that i
 If you want to switch to the **Complete Substitution**, execute the following command:
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-complete
+./setup-rs-system.sh change-method ps-complete
 ```
 
 After execution, ArgoCD will deploy services in 3 minutes. Open the Argo CD website, you will see that containers are synchronizing and updating. If not, please click **REFRESH**. This process takes about 1 minute.
@@ -40,7 +40,7 @@ After the synchronization is complete, open the Demo Website. At this time, the 
 If you want to switch to the **Rank Model Substitution**, execute the following command:
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-rank
+./setup-rs-system.sh change-method ps-rank
 ```
 
 After execution, open the Argo CD website and wait for the synchronization to complete.
@@ -52,7 +52,7 @@ Open the Demo Website, at this time the Recommendation System has been changed t
 If you want to switch to the **One Way Recall Logic**, execute the following command:
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-sims
+./setup-rs-system.sh change-method ps-sims
 ```
 
 After execution, open the Argo CD website and wait for the synchronization to complete.
@@ -64,7 +64,7 @@ Open the Demo Website. At this time, the Recommendation system has added one mor
 If you want to return to the **customize** method, just execute the following command and refresh the Argo CD:
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh customize
+./setup-rs-system.sh change-method customize
 ```
 
 

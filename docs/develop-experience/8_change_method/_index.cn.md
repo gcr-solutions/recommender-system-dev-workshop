@@ -26,7 +26,7 @@ Amazon Personalize是一项完全托管的个性化推荐服务，包含了多�
 若您想切换至**完整替代方案**，执行以下命令：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-complete
+./setup-rs-system.sh change-method ps-complete
 ```
 
 执行完毕后，ArgoCD会在3分钟内部署服务，打开 Argo CD 网页，您会看到容器正在同步更新。若没有显示，请点击 **REFRESH** 。部署过程大概需要 1 分钟。
@@ -40,7 +40,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 若您想切换至**排序模型替代方案**，执行以下命令：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-rank
+./setup-rs-system.sh change-method ps-rank
 ```
 
 执行完毕后，打开 Argo CD 网页，等待同步完成。
@@ -52,7 +52,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 若您想切换至**添加召回逻辑方案**，执行以下命令：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh ps-sims
+./setup-rs-system.sh change-method ps-sims
 ```
 
 执行完毕后，打开 Argo CD 网页，等待同步完成。
@@ -64,7 +64,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 若您想返回到用户定制化方法，只需执行以下命令，并刷新Argo CD即可：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-./change-method.sh customize
+./setup-rs-system.sh change-method customize
 ```
 
 
