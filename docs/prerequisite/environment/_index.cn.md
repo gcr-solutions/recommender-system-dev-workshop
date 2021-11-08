@@ -9,7 +9,19 @@ weight: 10
 **成本**: 如果您的账户不到 12 个月，AWS 免费套餐将包含此动手实践中所需的部分资源。有关更多详细信息，请参阅 [AWS 免费套餐页面](https://aws.amazon.com/free/) 。为避免在完成动手实践后产生额外的收费，请参阅 [清理资源](../../cleanup/) 。
 
 ## AWS 地区
-一旦你选择了一个地区，你应该在该地区创建此动手实践的所有资源。 我们建议您选择 **Tokyo** 地区。 使用区域下拉列表选择 **Asia Pacific (Tokyo)ap-northeast-1**。 
+一旦你选择了一个地区，你应该在该地区创建此动手实践的所有资源。 我们建议您选择 **Tokyo** 地区。 使用区域下拉列表选择 **Asia Pacific (Tokyo)ap-northeast-1**。  **注意**： 如果您想要部署 Amazon Personalize 推荐方式，请选择以下区域：
+
+- us-east-1 (N.Virginia)
+- us-east-2 (Ohio)
+- us-west-2 (Oregon)
+- ap-south-1 (Mumbai)
+- ap-northeast-2 (Seoul)
+- ap-southeast-1 (Singapore)
+- ap-southeast-2 (Sydney)
+- ap-northeast-1 (Tokyo)
+- ca-central-1 (Central)
+- eu-central-1 (Frankfurt)
+- eu-west-1 (Ireland)
 
 ## 浏览器
 我们建议您使用最新版本的 **Chrome** 来完成此动手实践。 
