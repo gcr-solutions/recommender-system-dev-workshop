@@ -25,14 +25,22 @@ In this step, you will create Argo CD application to deploy all online services 
 
     ```sh
     cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
-    nohup ./load-seed-data.sh >> ~/nohup.log 2>&1 &
+    nohup ./setup-rs-system.sh load-data >> ~/nohup.log 2>&1 &
     tail -f ~/nohup.log 
     ```
 
-4. Get the GUI endpoint:
+4. Synchronize the method config file to the system. 
+
+   ```shell
+   cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts   
+   nohup ./setup-rs-system.sh sync-method >> ~/nohup.log 2>&1 &
+   tail -f ~/nohup.log
+   ```
+
+5. Get the GUI endpoint:
 
     ```sh
-    ./get-ingressgateway-elb-endpoint.sh
+    ./setup-rs-system.sh get-endpoint
     ```
 
    **Attention**：If this workshop deployed in China Region，you will see the following output and mention you to create SSH Tunnel. Open a new SSH Client in your local environment and goto the Key Pair directory. Copy and Paste the following SSH Command.

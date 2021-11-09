@@ -1,19 +1,8 @@
 ---
-title: 切换至Amazon Personalize服务 (即将上线)
+title: 切换推荐方式
 weight: 48
 ---
 
-本功能即将上线，您可以将 CloudFormation 模版改成下面链接，来体验内测版本：
-
-海外区域：
-```shell
-https://aws-gcr-rs-sol-workshop-ap-northeast-1-common.s3.ap-northeast-1.amazonaws.com/rs-dev-workshop-code/github/develop/v1.3/rs-raw-ec2.yaml
-```
-
-北京区域：
-```shell
-https://aws-gcr-rs-sol-workshop-cn-north-1-common.s3.cn-north-1.amazonaws.com.cn/rs-dev-workshop-code/github/develop/v1.3/cn-rs-raw-ec2.yaml
-```
 
 Amazon Personalize是一项完全托管的个性化推荐服务，包含了多种算法。这些算法基于Amazon零售业务二十多年的个性化经验与开发专业知识。GCR 个性化推荐系统提供了三种集成Amazon Personalize的方案，您可以一键式切换至不同的方案，对比它们的推荐结果，并选择出最适合您当前业务的推荐系统方案。三种方案如下表所示：
 
@@ -23,11 +12,16 @@ Amazon Personalize是一项完全托管的个性化推荐服务，包含了多�
 |排序模型替代方案|aws-personalized-ranking |GCR 个性化推荐系统现有的排序模型是基于知识图谱的DKN模型。 如果您想使用Amazon Personalize提供的排序模型，可以采用此方案。此方案的在线部分将排序模块的 DKN 模型替换成 aws-personalized-ranking 模型。离线部分在原有流程的基础上，增加了Amazon Personalize服务的模型训练与数据集导入流程，并在排序模块的批量更新（rank batch）中将模型替换成了 aws-personalized-ranking 模型。 |ps-rank|
 |添加召回逻辑方案|aws-sims |GCR 个性化推荐系统现有的召回模型包含了四路召回逻辑。 如果您想使用Amazon Personalize提供的物品相似度模型作为第五路召回逻辑的话，可以采用此方案。此方案的在线部分在召回模块中多增加了一路召回逻辑，该召回逻辑采用了 aws-sims 物品相似度配方。离线部分在原有流程的基础上，增加了Amazon Personalize服务的模型训练与数据集导入流程，并在召回模块的批量更新（recall batch）中增加了 aws-sims 实现的一路召回逻辑。 |ps-sims|
 
+
 若您想切换至**完整替代方案**，执行以下命令：
 ```shell
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-complete
 ```
+
+若您没有部署 **ps-complete** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-complete not exist](/images/ps-complete-not-exist.png)
 
 执行完毕后，ArgoCD会在3分钟内部署服务，打开 Argo CD 网页，您会看到容器正在同步更新。若没有显示，请点击 **REFRESH** 。部署过程大概需要 1 分钟。
 
@@ -43,6 +37,10 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-rank
 ```
 
+若您没有部署 **ps-rank** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-rank not exist](/images/ps-rank-not-exist.png)
+
 执行完毕后，打开 Argo CD 网页，等待同步完成。
 
 打开新闻界面，此时推荐系统的排序模型已改为 aws-personalized-ranking 模型。点击三篇新闻，打开Argo CD网站中的 Rank Pod，可以在 LOGS 栏的最下面看到由 **ps-rank** 实现的排序功能。
@@ -54,6 +52,10 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-sims
 ```
+
+若您没有部署 **ps-sims** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-sims not exist](/images/ps-sims-not-exist.png)
 
 执行完毕后，打开 Argo CD 网页，等待同步完成。
 
@@ -72,7 +74,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 如果您有兴趣进一步了解该功能背后的逻辑，可以查看以下内容。 
 
-当您执行完 `change-method.sh $METHOD` 后，您可以看到终端输出了以下内容：
+当您执行完 `./setup-rs-system.sh change-method $METHOD` 后，您可以看到终端输出了以下内容：
 
 ![change method output](/images/change-method-output.png)
 

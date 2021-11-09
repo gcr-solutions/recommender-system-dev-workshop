@@ -19,7 +19,7 @@ weight: 4
 
     ```sh
     git pull
-    git add ../manifests/envs/news-dev/config.yaml
+    git add -A
     git commit -m "update config"
     git push
     ```
