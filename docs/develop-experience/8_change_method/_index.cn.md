@@ -18,7 +18,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-complete
 ```
 
-若您没有部署 **ps-complete** 相关资源，命令行会提醒您先运行部署脚本，请按照要求执行。部署完资源后，请再运行以上的切换推荐方式命令。
+若您没有部署 **ps-complete** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-complete not exist](/images/ps-complete-not-exist.png)
 
 执行完毕后，ArgoCD会在3分钟内部署服务，打开 Argo CD 网页，您会看到容器正在同步更新。若没有显示，请点击 **REFRESH** 。部署过程大概需要 1 分钟。
 
@@ -34,7 +36,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-rank
 ```
 
-若您没有部署 **ps-rank** 相关资源，命令行会提醒您先运行部署脚本，请按照要求执行。部署完资源后，请再运行以上的切换推荐方式命令。
+若您没有部署 **ps-rank** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-rank not exist](/images/ps-rank-not-exist.png)
 
 执行完毕后，打开 Argo CD 网页，等待同步完成。
 
@@ -48,7 +52,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-sims
 ```
 
-若您没有部署 **ps-sims** 相关资源，命令行会提醒您先运行部署脚本，请按照要求执行。部署完资源后，请再运行以上的切换推荐方式命令。
+若您没有部署 **ps-sims** 相关资源，您会得到以下提醒，请执行以下命令。
+
+![ps-sims not exist](/images/ps-sims-not-exist.png)
 
 执行完毕后，打开 Argo CD 网页，等待同步完成。
 

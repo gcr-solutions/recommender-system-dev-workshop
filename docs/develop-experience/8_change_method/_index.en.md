@@ -18,7 +18,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-complete
 ```
 
-If you have not deployed **ps-complete** related resources, the terminal will remind you to run the deployment script first. Please run the command as required. After deploying the resources, please run the above switch method command again. 
+If you have not deployed **ps-complete** related resources, the terminal will print the notification. Please run the following command:
+
+![ps-complete not exist](/images/ps-complete-not-exist.png)
 
 After execution, ArgoCD will deploy services in 3 minutes. Open the Argo CD website, you will see that containers are synchronizing and updating. If not, please click **REFRESH**. This process takes about 1 minute.
 
@@ -34,7 +36,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-rank
 ```
 
-If you have not deployed **ps-rank** related resources, the terminal will remind you to run the deployment script first. Please run the command as required. After deploying the resources, please run the above switch method command again. 
+If you have not deployed **ps-rank** related resources, the terminal will print the notification. Please run the following command:
+
+![ps-rank not exist](/images/ps-rank-not-exist.png)
 
 After execution, open the Argo CD website and wait for the synchronization to complete.
 
@@ -48,7 +52,9 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 ./setup-rs-system.sh change-method ps-sims
 ```
 
-If you have not deployed **ps-sims** related resources, the terminal will remind you to run the deployment script first. Please run the command as required. After deploying the resources, please run the above switch method command again. 
+If you have not deployed **ps-sims** related resources, the terminal will print the notification. Please run the following command:
+
+![ps-sims not exist](/images/ps-sims-not-exist.png)
 
 After execution, open the Argo CD website and wait for the synchronization to complete.
 
