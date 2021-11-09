@@ -3,6 +3,7 @@ title: Switch to Recommendation Method
 weight: 48
 ---
 
+
 Amazon Personalize is a fully managed personalized recommendation service that includes a variety of algorithms. These algorithms based on more than 20 years of personalization experience and development expertise in Amazon's retail business. The GCR Recommendation System provides three suggestions to use Amazon Personalize. You can switch to different mode with only one command, compare their recommendation results, and choose the most suitable recommendation system plan for your current business. The three plans shown in the following table:
 
 |Plan |Amazon Personalize Recipe | Description | Alias |
