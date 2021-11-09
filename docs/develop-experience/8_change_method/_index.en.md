@@ -73,7 +73,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 If you have interests in understanding more about the process behind switching method, you can check the following content. 
 
-After you execute the change-method.sh, you will see the following output in your terminal:
+After you execute `./setup-rs-system.sh change-method $METHOD`, you will see the following output in your terminal:
 
 ![change method output](/images/change-method-output.png)
 

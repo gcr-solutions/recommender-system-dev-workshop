@@ -73,7 +73,7 @@ cd /home/ec2-user/environment/recommender-system-dev-workshop-code/scripts
 
 如果您有兴趣进一步了解该功能背后的逻辑，可以查看以下内容。 
 
-当您执行完 `change-method.sh $METHOD` 后，您可以看到终端输出了以下内容：
+当您执行完 `./setup-rs-system.sh change-method $METHOD` 后，您可以看到终端输出了以下内容：
 
 ![change method output](/images/change-method-output.png)
 
