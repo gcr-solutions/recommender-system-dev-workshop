@@ -36,6 +36,7 @@ Hopefully you’ve enjoyed the workshop and learned a few new things. Now follow
 
     - `gcr-rs-dev-workshop-ec2` 
     - `rs-dev-workshop-codebuild-role-stack`
+    - `rs-personalize-role-stack`
 
 
 5. Go to [EC2 Key Pairs](https://console.aws.amazon.com/ec2/v2/home#KeyPairs:search=gcr-rs-dev-workshop-key), select `gcr-rs-dev-workshop-key`, and delete it.

@@ -35,6 +35,7 @@ weight: 60
 
    - `gcr-rs-dev-workshop-ec2` 
    - `rs-dev-workshop-codebuild-role-stack`
+   - `rs-personalize-role-stack`
    
 5. 在 [EC2 Key Pairs](https://console.aws.amazon.com/ec2/v2/home#KeyPairs:search=gcr-rs-dev-workshop-key) 中, 选择并删除 `gcr-rs-dev-workshop-key`。
 
