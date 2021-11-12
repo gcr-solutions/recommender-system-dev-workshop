@@ -1,6 +1,6 @@
 ---
 title: Deploy Online
-weight: 2
+weight: 3
 ---
 
 In this module, you'll create CI/CD and deploy **GCR Recommender System Online Part**

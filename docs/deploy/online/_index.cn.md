@@ -1,6 +1,6 @@
 ---
 title: 部署在线部分
-weight: 2
+weight: 3
 ---
 
 在本模块中，您将部署 GCR 推荐系统
