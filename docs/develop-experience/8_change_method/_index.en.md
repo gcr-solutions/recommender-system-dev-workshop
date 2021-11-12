@@ -1,5 +1,5 @@
 ---
-title: Switch to Recommendation Method
+title: Switch Recommendation Method
 weight: 48
 ---
 
