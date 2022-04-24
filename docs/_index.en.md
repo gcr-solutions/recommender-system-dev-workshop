@@ -3,17 +3,6 @@ title: Recommender System Solution Workshop
 chapter: true
 ---
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YGV6QJDB2K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YGV6QJDB2K');
-</script>
-
-
 # GCR Recommender System Solution
 
 Amazon Recommender System Solution is a cloud-native recommendation solution for different scenarios. This solution is suitable for customers with needs for building the recommender systems in different scenarios, like news, movies, TV, travelings, education and so on. This solution is designed with both flexibility and integrity. No matter you just start to build a recommender system or on the way , you can use this solution to speed up the process, save time and cost from the complete-system perspective. It is an open-source project in GitHub, anyone can contribute to features or adding more related solutions.
